@@ -1,0 +1,62 @@
+@charset "utf-8";
+*{ margin:0; padding:0; font-weight: normal; font-style: normal; box-sizing:border-box; }
+html,body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em,i,b,strong{margin:0; padding:0; font-weight: normal; font-style: normal; box-sizing:border-box; }
+ul,ol,li{list-style:none;}
+a{text-decoration:none; }
+img{ border:0;}
+i,em,b,strong{font-style:normal; }
+table{border-collapse:collapse; }
+input,select,textarea,button{ outline:none; resize: none; font-family:"Microsoft Yahei","微软雅黑"; }
+*:focus{outline:none}
+html,body{width:100%; font-family:"Hiragino Sans GB","Microsoft Yahei","微软雅黑","\5FAE\8F6F\96C5\9ED1"; font-size: 14px;}
+
+/*双11活动页面*/
+.banner-wrap .bar-btns{ display: none; position: fixed; bottom: 0px; width: 100%; z-index: 2; height: 50px; line-height: 50px; background-color: #f08b2f; border-top: solid 1px #f08b2f; }
+.banner-wrap .bar-btns a{ display: block; width: 50%; font-size: 16px; color: #fff; text-align: center; }
+.banner-wrap .bar-btns .btn1{ float: left; background-color: #fff; color: #f08b2f; }
+.banner-wrap .bar-btns .btn2{ float: right; }
+
+.banner-wrap .center-pic{ width: 1240px; margin: auto; text-align: center; }
+.banner-wrap .full-pic{ width:100%; min-width: 1240px; margin: auto; text-align: center; position: relative; }
+.banner-wrap .full-pic.butie1{ height: 719px; background-image: url(../banner/images/date11-bg0.jpg); background-repeat: no-repeat; background-position: center 0px; }
+.banner-wrap .full-pic img{ max-width: 100%; }
+.banner-wrap .full-pic .btns-1{ position: absolute; top: 605px; left: 50%; margin-left: -236px; }
+.banner-wrap .full-pic .btns-1 a{ display: block; width: 215px; height: 51px; line-height: 51px; margin: 0 10px; font-size: 20px; color: #fff; background-image: url(../banner/images/btn-1.png); background-repeat: no-repeat; background-position: 0px 0px; }
+.banner-wrap .full-pic .btns-1 .btn1{ float: left; }
+.banner-wrap .full-pic .btns-1 .btn2{ float: right; }
+.banner-wrap .full-pic .btns-2{ position: absolute; top: 650px; left: 50%; margin-left: -218px; }
+.banner-wrap .full-pic .btns-2 a{ display: block; width: 188px; height: 46px; line-height: 46px; margin: 0 15px; font-size: 16px; color: #fff; background-color: #f08b2f; }
+.banner-wrap .full-pic .btns-2 .btn1{ float: left; }
+.banner-wrap .full-pic .btns-2 .btn2{ float: right; }
+
+.banner-wrap .pic-2{ background-color: #eaeaf6; }
+.banner-wrap .pic-2 .img2{ text-align: left; }
+.banner-wrap .pic-2 .img4{ text-align: left; }
+
+.banner-wrap .butie2 .img1 img{  }
+.banner-wrap .butie2{ background-image: url(../banner/images/date11-bg9.jpg); background-repeat: no-repeat; background-position: center 0px; }
+
+@media screen and (max-width: 1100px) {
+    .main-nav{ display: none; }
+    .footer-wrap{ display: none; }
+
+    .banner-wrap{ padding-bottom: 50px; }
+    .banner-wrap .bar-btns{ display: block; }
+
+    .banner-wrap .center-pic{ width: 100%; overflow: hidden; }
+    .banner-wrap .center-pic img{ width: 100%; }
+    .banner-wrap .full-pic{ min-width: 100%; }
+    .banner-wrap .full-pic.butie1{ height: 220px; background-size: auto 160%; background-position: center -30px; }
+    .banner-wrap .full-pic .btns-1{ display: none; }
+
+    .banner-wrap .full-pic .btns-2{ display: none; }
+
+/*    .banner-wrap .full-pic .btns-2{ position: fixed; bottom: 0; width: 100%; top: auto; left: 0; margin-left: 0; padding: 0 15px; }
+    .banner-wrap .full-pic .btns-2 a{ width: 45%; height: 46px; line-height: 46px; margin: 0; }*/
+
+    .banner-wrap .pic-1 img{ width: 100%; }
+
+    .banner-wrap .pic-2{ padding: 0 15px; }
+    .banner-wrap .butie2 .img1 img{ margin-left: 0; }
+    .banner-wrap .butie2{ background-image: none; }
+}

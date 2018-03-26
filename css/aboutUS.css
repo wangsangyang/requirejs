@@ -1,0 +1,146 @@
+/* --------------- start 关于我们 --------------- */
+.aboutUs-wrap .bannerWrap{ width:100%; height:394px; min-width:1240px; }
+/*说明文章*/
+.aboutUs-wrap .explainTextWrap{ width:100%; }
+.aboutUs-wrap .explainText{ width:1240px; margin:auto; padding:45px 35px 45px 240px; position: relative; }
+.aboutUs-wrap .explainTextWrap .sm{ display: block; width: 192px; height: 192px; position: absolute; top: -85px; left: 0; background: #f08c2f url(../images/aboutUs-bg.png) no-repeat left top; }
+.aboutUs-wrap .explainText p{ line-height:27px; color: #555; }
+/* 媒体报道 */
+.aboutUs-wrap .mediaReportsWrap{ width:1240px; margin:auto; padding:0 0 50px; }
+.aboutUs-wrap .mediaReportsWrap .mediaReports-header{ text-align:center; font-size:24px; font-weight:normal; color: #555; border-top: solid 1px #e5e5e5; }
+.aboutUs-wrap .mediaReportsWrap .mediaReports-header span{ display:block; width: 225px; height: 18px; line-height: 18px; margin: auto; margin-top: -9px; border-left: solid 1px #e5e5e5; border-right: solid 1px #e5e5e5; background-color: #fff; }
+.aboutUs-wrap .mediaReportsWrap .mediaReports-body{ padding:50px 0 10px; *zoom:1; }
+.aboutUs-wrap .mediaReportsWrap .mediaReports-body:after{ content:""; display:block; clear:both; height:0; visibility:hidden; }
+.aboutUs-wrap .mediaReportsWrap .mediaReports-body li{ float:left; margin:0 28px 0 48px; }
+.aboutUs-wrap .mediaReportsWrap .mediaReports-body li a{ display:block; width:220px; height:226px; border:solid 1px #fff; color: #555; }
+.aboutUs-wrap .mediaReportsWrap .mediaReports-body li .pic{ display:block; width:100%; height:110px; padding-top:20px; font-size:20px; text-align:center; overflow:hidden; }
+.aboutUs-wrap .mediaReportsWrap .mediaReports-body li .pic img{width:170px; height:90px;}
+.aboutUs-wrap .mediaReportsWrap .mediaReports-body li .txt{ display:block; line-height: 27px; font-size:16px;padding:0 18px 0 34px; }
+.aboutUs-wrap .mediaReportsWrap .mediaReports-body li a:hover{ border:solid 1px #f08c2f; color: #f08c2f; }
+/* --------------- end 关于我们 --------------- */
+
+/* --------------- start 联系我们 --------------- */
+.aboutUs-wrap .bannerWrap{ width:100%; height:442px; min-width:1240px; }
+.aboutUs-wrap .bannerWrap1{ width:100%; height:313px; min-width:1240px; }
+/* --------------- end 联系我们 --------------- */
+
+/* --------------- start 加入我们 --------------- */
+.joinUs-wrap .bannerWrap{ width:100%; height:399px; min-width:1240px; }
+/*招聘*/
+.joinUs-wrap .recruitWrap{ width:1240px; margin:auto; padding: 0 0 50px; }
+.joinUs-wrap .recruitWrap .i-header{ padding: 46px 0 0; }
+.joinUs-wrap .recruitWrap .i-body{ margin: 30px 0 0; border: solid 1px #eaeaea; }
+.joinUs-wrap .recruitWrap .i-body .mytab{ float: left; position: relative; z-index: 1; }
+.joinUs-wrap .recruitWrap .i-body .mytab .mytap-header{ width: 255px; float: left; border: 0; }
+.joinUs-wrap .recruitWrap .i-body .mytab .mytap-header .list{ float: none; cursor: default; padding: 0 18px; }
+.joinUs-wrap .recruitWrap .i-body .mytab .mytap-header .list a{ height: 55px; line-height: 55px; border: 0; border-bottom: solid 1px #eaeaea; color: #555; }
+.joinUs-wrap .recruitWrap .i-body .mytab .mytap-header .list a:hover{ color: #f08c2f; background-color: #fff; }
+.joinUs-wrap .recruitWrap .i-body .mytab .mytap-header .list.selected a{ color: #f08c2f; background-color: #fff; }
+.joinUs-wrap .recruitWrap .i-body .mytab .mytap-body{ width: 750px; float: left; padding: 25px 35px; color: #555; border-left: solid 1px #eaeaea; border-right: solid 1px #eaeaea; }
+.joinUs-wrap .recruitWrap .i-body .mytab .mytap-body h3{ font-size: 28px; }
+.joinUs-wrap .recruitWrap .i-body .mytab .mytap-body .t1{ font-size: 16px; line-height: 40px; margin-top: 30px; }
+.joinUs-wrap .recruitWrap .i-body .mytab .mytap-body .t2{ font-size: 16px; line-height: 40px; margin-top: 30px; color: #777; }
+.joinUs-wrap .recruitWrap .i-body .mytab .mytap-body .t2 p{ font-size: 14px; padding: 0 0 0 30px; }
+.joinUs-wrap .recruitWrap .i-body .mytab .mytap-body .t2 p em{ display: inline-block; padding: 0 30px 0 0; }
+.joinUs-wrap .recruitWrap .i-body .sendAddress{ float: right; width: 100%; margin: 0 0 0 -1005px; padding:  0 0 0 1005px; text-align: center; }
+.joinUs-wrap .recruitWrap .i-body .sendAddress .icon-sendResume{ display: inline-block; width: 77px; height: 78px; margin: 100px 0 10px; }
+.joinUs-wrap .recruitWrap .i-body .sendAddress .s1{ display: block; color: #555; line-height: 24px; }
+/* --------------- end 加入我们 --------------- */
+
+
+/* ------------------ start 常见问题 ------------------ */
+.commonProblem-wrap{ width:100%; padding:30px 0 50px; }
+.commonProblem-wrap .commonProblem{ width:1200px; margin:auto; background-color:#fff; }
+/* 左导航 */
+.commonProblem-wrap .sub-nav{ width:210px; float:left; background-color:#f1f5f8; }
+.commonProblem-wrap .sub-nav .sub-nav-header{ display:block; height:46px; line-height:46px; font-size:18px; font-weight:normal; color:#fff; background-color:#008cd7; margin-bottom:1px; text-align:center; }
+.commonProblem-wrap .sub-nav li .dropdown-title{ display:block; height:38px; font-size:16px; font-weight:normal; }
+.commonProblem-wrap .sub-nav li .dropdown-title .icon{ display:block; float:left; width:18px; height:18px; margin:9px 6px 0 40px; }
+.commonProblem-wrap .sub-nav li .dropdown-title:hover{ background-color:#dde5e7; border-left:solid 4px #008cd6; }
+.commonProblem-wrap .sub-nav li .dropdown-title:hover .icon{ margin-left:36px; }
+.commonProblem-wrap .sub-nav li .dropdown-title .txt{ display:block; float:left; margin:8px 0 0 0px; color: #666; }
+.commonProblem-wrap .sub-nav li .dropdown-title .icon-wddd{ background-position:0px 0px; }
+.commonProblem-wrap .sub-nav li .dropdown-title .icon-sbjk{ background-position:0px -18px; }
+.commonProblem-wrap .sub-nav li .dropdown-title .icon-sbgl{ background-position:0px -34px; }
+.commonProblem-wrap .sub-nav li .dropdown-title .icon-cysqr{ background-position:0px -52px; }
+.commonProblem-wrap .sub-nav li .dropdown-title .icon-wsdlr{ background-position:0px -70px; }
+.commonProblem-wrap .sub-nav li .dropdown-title .icon-setting{ background-position:0px -93px; }
+.commonProblem-wrap .sub-nav li .dropdown-title .icon-arrow{ display:block; float:right; width:18px; height:18px; line-height:20px; margin:8px 14px 0 0px; text-align:center; font-family:"宋体"; font-size:12px; color:#008cd7; font-weight:bold; }
+.commonProblem-wrap .sub-nav li .dropdown-menu{ display:none; }
+.commonProblem-wrap .sub-nav li .dropdown-menu li a{display:block; height:38px; line-height:38px; text-indent:64px; font-size:14px; }
+.commonProblem-wrap .sub-nav li .dropdown-menu li a:hover{ background-color:#dde5e7; }
+.commonProblem-wrap .sub-nav .open .dropdown-title{ background-color:#dde5e7; border-left:solid 4px #008cd6; }
+.commonProblem-wrap .sub-nav .open .dropdown-title .icon{ margin-left:36px; }
+.commonProblem-wrap .sub-nav .open .dropdown-menu{ display:block; }
+.commonProblem-wrap .sub-nav li .dropdown-menu .active{ background-color:#dde5e7; }
+.commonProblem-wrap .right-content{ width: 955px; float: left; margin-left: 35px; box-sizing: border-box; }
+/* 右侧——常见文档 */
+.agent-resume-wrap .agent-resume .right-content .common-doc{ margin:10px 0 40px 0; }
+.agent-resume-wrap .agent-resume .right-content .common-doc .c-header{ font-size:18px; font-weight:normal; color:#000;  }
+.agent-resume-wrap .agent-resume .right-content .common-doc .c-body{margin-left:-20px; *zoom:1;  }
+.agent-resume-wrap .agent-resume .right-content .common-doc .c-body:after{ content:""; display:block; clear:both; height:0; visibility:hidden; }
+.agent-resume-wrap .agent-resume .right-content .common-doc .c-body li{ width:279px; height:380px; float:left; margin:20px 0px 0 20px; border:solid 1px #ddd; position:relative; }
+.agent-resume-wrap .agent-resume .right-content .common-doc .c-body li .pic{ display:block; width:100%; height:100%; overflow:hidden; }
+.agent-resume-wrap .agent-resume .right-content .common-doc .c-body li .pic img{ width:100%; }
+.agent-resume-wrap .agent-resume .right-content .common-doc .c-body li .txt{ display:none; width:100%; position:absolute; z-index:2; left:0; top:40%; color:#fff; font-size:30px; text-align:center; }
+.agent-resume-wrap .agent-resume .right-content .common-doc .c-body li .shadow{ display:none; width:100%; height:100%; position:absolute; z-index:1; left:0; top:0; background-color:#1093FF; opacity:0.8; filter:alpha(opacity=80); }
+.agent-resume-wrap .agent-resume .right-content .common-doc .c-body li:hover{ }
+.agent-resume-wrap .agent-resume .right-content .common-doc .c-body li:hover .txt{ display:block; }
+.agent-resume-wrap .agent-resume .right-content .common-doc .c-body li:hover .shadow{ display:block; }
+.agent-resume-wrap .agent-resume .right-content .common-doc .down-file{ margin-top:20px; font-size:14px; }
+.agent-resume-wrap .agent-resume .right-content .common-doc .down-file .fa{ font-size:16px; }
+.agent-resume-wrap .agent-resume .right-content .common-doc .down-file a:hover{ text-decoration:underline; color:#008cd6; }
+/* 右侧——常见问题 */
+.commonProblem-wrap .right-content .common-problem{ margin:0 0 40px; }
+.commonProblem-wrap .right-content .common-problem .i-header{ height:46px; line-height:46px; padding:0 10px; background-color:#f1f5f8; font-size:16px; border:solid 1px #eee; }
+.commonProblem-wrap .right-content .common-problem .content{ padding:5px 10px 30px; }
+.commonProblem-wrap .right-content .common-problem .content .c-header{ height:18px; line-height:18px; padding:0 8px; font-size:16px;font-weight:normal; border-left:solid 4px #008cd6; margin:30px 0 0 0; }
+.commonProblem-wrap .right-content .common-problem .content .c-body{ line-height:30px; padding:15px 0 25px; border-bottom:solid 1px #dbdbdb; }
+.commonProblem-wrap .right-content .common-problem .content .c-body li{ padding:0 14px; color:#888; font-size:14px;  }
+/* 右侧——费用说明 */
+.costDescription{ height: 670px; }
+.costDescription .right-content{ color: #666; }
+.costDescription .right-content .p{ margin: 0 0 16px 0;text-indent: 2em;line-height: 25px;font-size: 14px;}
+.costDescription .right-content a{ color:#008cd6; text-decoration:underline; }
+.costDescription .right-content h3{ margin:25px 0 10px; font-size:16px; font-weight:normal; border-left:solid 4px #008cd6; text-indent:8px; height:16px; line-height:16px;}
+/* 右侧——服务说明 */
+.serviceDescription{ }
+.serviceDescription .right-content{ color: #666; }
+.serviceDescription .right-content .p{ margin: 0 0 16px 0;text-indent: 2em;line-height: 25px;font-size: 14px;}
+.serviceDescription .right-content a{ color:#008cd6; text-decoration:underline; }
+.serviceDescription .right-content h3{ margin:25px 0 10px; font-size:16px; font-weight:normal; border-left:solid 4px #008cd6; text-indent:8px; height:16px; line-height:16px;}
+/* 右侧——常见文档 */
+.commonDocWrap{ padding:40px 0; }
+.commonDoc{ width:1200px; margin:auto; *zoom:1; }
+.commonDoc:after{ content:""; display:block; clear:both; height:0; clear:both; }
+.commonDoc .commonDoc-left{ width:210px; float:left; text-align:center; }
+.commonDoc .commonDoc-left .left-nav-title{ height:46px; line-height:46px;font-weight:normal;font-size:16px; color:#fff; background:#008cd7; }
+.commonDoc .commonDoc-left .dropdown-menu{ padding:12px 0; background-color:#f1f5f8; }
+.commonDoc .commonDoc-left .dropdown-menu a{font-size:14px; transition:0; -webkit-transition:0;}
+.commonDoc .commonDoc-left .dropdown-menu a:hover{ transition:0; -webkit-transition:0;}
+.commonDoc .commonDoc-left .dropdown-menu li{ height:34px; line-height:34px; margin-bottom:1px; cursor:pointer; }
+.commonDoc .commonDoc-left .dropdown-menu li a{ font-size:14px; color: #666; }
+.commonDoc .commonDoc-left .dropdown-menu li:hover{ background-color:#dee5e7; }
+.commonDoc .commonDoc-left .dropdown-menu .active{ border-left:solid 4px #008cd6; background-color:#dee5e7; text-indent:-4px; }
+.commonDoc .commonDoc-right{ width:960px; float:left; margin-left:30px; }
+.commonDoc .commonDoc-right .common-box{ display:none; }
+.commonDoc .commonDoc-right .common-box.active{ display:block; }
+.commonDoc .commonDoc-right .common-doc-title{ height:44px; line-height:44px; font-weight:normal; font-size:16px; color:#666; background-color:#f1f5f8; border:solid 1px #eee; padding:0 12px; margin-bottom:28px;}
+.commonDoc .commonDoc-right .common-doc{ margin:10px 0 20px 0; }
+.commonDoc .commonDoc-right .common-doc .c-header{ font-size:14px; font-weight:normal; border-left:solid 4px #008cd6; text-indent:10px; margin-bottom:12px; }
+.commonDoc .commonDoc-right .common-doc .c-body{margin-left:-20px; *zoom:1;  }
+.commonDoc .commonDoc-right .common-doc .c-body:after{ content:""; display:block; clear:both; height:0; visibility:hidden; }
+.commonDoc .commonDoc-right .common-doc .c-body li{ width:200px; height:268px; float:left; margin:20px 0px 20px 40px; border:solid 1px #ddd; position:relative; }
+.commonDoc .commonDoc-right .common-doc .c-body li .pic{ display:block; width:100%; height:100%; overflow:hidden; }
+.commonDoc .commonDoc-right .common-doc .c-body li .pic img{ width:100%; }
+.commonDoc .commonDoc-right .common-doc .c-body li .content{ display:none; width:100%; height:100%; position:absolute; z-index:2; left:0; top:0; }
+.commonDoc .commonDoc-right .common-doc .c-body li .content .txt{ display:block; width:100%; position:absolute; z-index:2; left:0; top:50px; color:#fff; font-size:16px; text-align:center; }
+.commonDoc .commonDoc-right .common-doc .c-body li .content .check{ display:block; width:100%; height:36px; position:absolute; z-index:2; left:0; top:115px; color:#fff; cursor:pointer; }
+.commonDoc .commonDoc-right .common-doc .c-body li .content .s-1{ display:block; float:left; line-height:36px; font-size:14px; }
+.commonDoc .commonDoc-right .common-doc .c-body li .content .icon{ display:block; float:left; margin:0 1px 0 53px; width:36px; height:36px; background-image:url(../image/icon-down-file.png); background-repeat:no-repeat; }
+.commonDoc .commonDoc-right .common-doc .c-body li .content .icon-zoom{ background-position:0px 0px; }
+.commonDoc .commonDoc-right .common-doc .c-body li .content .icon-download{ background-position:-34px 4px; }
+.commonDoc .commonDoc-right .common-doc .c-body li .content .download-file{ display:block; width:100%; position:absolute; z-index:2; left:0; top:170px; color:#fff; font-size:20px; text-align:center; cursor:pointer;}
+.commonDoc .commonDoc-right .common-doc .c-body li .content .shadow{ width:100%; height:100%; position:absolute; z-index:1; left:0; top:0; background-color:#000; opacity:0.7; filter:alpha(opacity=70); }
+.commonDoc .commonDoc-right .common-doc .c-body li:hover .content{ display:block; }
+

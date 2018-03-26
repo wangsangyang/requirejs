@@ -1,0 +1,266 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>审核失败</title>
+    <link rel="stylesheet" type="text/css" href="../../bootstrap-3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../bootstrap-3.3.5/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/icon.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/adminManage.css" />
+    <script type="text/javascript" src="../../js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../../bootstrap-3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../js/adminManage.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../js/My97DatePicker/skin/WdatePicker.css" />
+    <script type="text/javascript" src="../../js/My97DatePicker/WdatePicker.js"></script>
+    <!-- 让IE6-8也支持HTML5属性、响应式媒体查询 -->
+    <!--[if lt IE 9]>
+    <script src="../../js/html5.js"></script>
+    <script type="text/javascript" src="../../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<!-- start 个人中心 -->
+<div class="adminManage-wrap">
+    <div class="adminManage">
+
+        <!-- start 固定的顶部 -->
+        <div class="adminManage-topBox">
+            <div class="topBox-nav">
+                <h1 class="topBox-nav-title">权大师超级后台</h1>
+                <ul class="topBox-nav-right">
+                    <!-- Single button -->
+                    <div class="btn-group">
+                        <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="glyphicon glyphicon-user"></i><span class="text">18511112222</span><i class="caret"></i>
+                        </div>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="#"><i class="glyphicon glyphicon-user"></i>个人中心</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#"><i class="glyphicon glyphicon-home"></i>返回首页</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="../login/login.html"><i class="glyphicon glyphicon-log-out"></i>安全退出</a></li>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <!-- end 固定的顶部 -->
+
+        <!-- start 左侧导航主导航 -->
+        <div class="adminManage-leftBox">
+            <h1 class="logo"><a href="../main.html"><img src="../../images/logo.png" alt="权大师logo" title="权大师logo" /></a></h1>
+            <left-nav id="leftnav"></left-nav>
+        </div>
+        <!-- end 左侧导航主导航 -->
+
+        <!-- start 右侧主内容 -->
+        <div class="adminManage-rightBox">
+        <div class="main-content">
+
+            <!-- start 面包屑导航 -->
+            <div class="radius-panel">
+                <!-- start 面包屑导航 -->
+                <div class="site">
+                    <ul class="clearfix">
+                        <li class="list title">当前位置：</li>
+                        <li class="list"><a class="text" href="#">商标审核</a></li>
+                    </ul>
+                </div><!-- end 面包屑导航 -->
+            </div><!-- end 面包屑导航 -->
+
+            <!-- start 列表 -->
+            <div class="radius-panel">
+
+                <table class="table-search">
+                    <tbody>
+                        <tr>
+                            <td class="td-title">订单编号：</td>
+                            <td class="td-content" style="padding-right: 30px;"><input type="text" class="input" style="width: 324px;"></td>
+                            <td class="td-title">申请人：</td>
+                            <td class="td-content"><input type="text" class="input" style="width: 324px;"></td>
+                        </tr>
+                        <tr>
+                            <td class="td-title">商标名称：</td>
+                            <td class="td-content"><input type="text" class="input" style="width: 324px;"></td>
+                            <td class="td-title">审核人：</td>
+                            <td class="td-content"><input type="text" class="input" style="width: 324px;"></td>
+                        </tr>
+                        <tr>
+                            <td class="td-title">代理人信息：</td>
+                            <td class="td-content">
+                                <select class="input">
+                                    <option value="" selected="selected">选择属性</option>
+                                    <option value="">注册账号</option>
+                                    <option value="">代理人姓名</option>
+                                    <option value="">代理人电话</option>
+                                    <option value="">代理人邮箱</option>
+                                </select>
+                                <input type="text" class="input">
+                            </td>
+                            <td class="td-title">客户信息：</td>
+                            <td class="td-content">
+                                <select class="input">
+                                    <option value="" selected="selected">选择属性</option>
+                                    <option value="">注册账号</option>
+                                    <option value="">客户姓名</option>
+                                    <option value="">客户电话</option>
+                                    <option value="">客户邮箱</option>
+                                </select>
+                                <input type="text" class="input">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-title">服务类型：</td>
+                            <td class="td-content">
+                                <select class="input"  style="width: 324px;">
+                                    <option selected="selected" value="0">全部</option>
+                                    <option value="1">智能商标注册</option>
+                                    <option value="2">担保商标注册</option>
+                                    <option value="3">快速商标注册</option>
+                                    <option value="4">机构智能商标注册</option>
+                                </select>
+                            </td>
+                            <td class="td-title">下单时间：</td>
+                            <td class="td-content">
+                                <input type="text" name="start" readonly class="input mydate" onclick="WdatePicker({dateFmt:'yyyy-MM-dd',skin:'twoer',isShowClear:false,doubleCalendar:true})">至<input type="text" name="end" readonly class="input mydate" onclick="WdatePicker({dateFmt:'yyyy-MM-dd',skin:'twoer',isShowClear:false,doubleCalendar:true})" style="width: 150px;">
+                            </td>
+                            <td align="right">
+                                <div class="btns btns-inline">
+                                    <a href="javascript:;" class="btn search">查询</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class="table-export">
+                    <tr>
+                        <td><a id="btn-export" href="#"><i class="icon icon-export"></i>导出所有列表</a></td>
+                    </tr>
+                </table>
+
+                <div class="mytabs">
+                    <ul class="mytabs-header clearfix">
+                        <li class="list"><a href="list-waiting.html">待审核</a></li>
+                        <li class="list"><a href="list-passed.html">审核通过</a></li>
+                        <li class="list selected"><a href="list-failed.html">审核未通过</a></li>
+                        <li class="list"><a href="list-all.html">全部</a></li>
+                        <li class="list list-hecha"><a href="javascript:;alert('请去问产品！')">核查不通过（3）</a></li>
+                    </ul>
+                </div>
+
+                <table width="100%" class="dataTable">
+                    <thead>
+                        <tr>
+                            <td>序号</td>
+                            <td>订单编号</td>
+                            <td>服务类型</td>
+                            <td>客户姓名</td>
+                            <td>客户电话</td>
+                            <td>申请人</td>
+                            <td>商标名称</td>
+                            <td>类别数量</td>
+                            <td>审核人</td>
+                            <td>审核状态</td>
+                            <td>操作</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>TM1605238937</td>
+                            <td>保姆式商标注册</td>
+                            <td>张三</td>
+                            <td>18945624566</td>
+                            <td>杭州哈意科技有限公司</td>
+                            <td>哈药</td>
+                            <td>3</td>
+                            <td>宋维娜</td>
+                            <td>审核未通过</td>
+                            <td>
+                                <div class="btns btns-min">
+                                    <a class="btn" href="../newshenhe/shenhe.html">审核</a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>TM1605238937</td>
+                            <td>保姆式商标注册</td>
+                            <td>张三</td>
+                            <td>18945624566</td>
+                            <td>杭州哈意科技有限公司</td>
+                            <td>哈药</td>
+                            <td>3</td>
+                            <td>--</td>
+                            <td>审核未通过</td>
+                            <td>
+                                <div class="btns btns-min">
+                                    <a class="btn" href="../newshenhe/shenhe.html">审核</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="mypagination">
+                    <ul class="pagination"><li class="prev"><span>上一页</span></li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li class="next"><a href="#">下一页</a></li>
+                        <li style="width:28px;height:26px;color:#777;margin-left:52px;">到第</li><input class="j-input" type="text" value="1"><input class="j-btn" type="button" value="确定" onclick="javascript:var page=this.previousSibling.value<=0?1:this.previousSibling.value;location=''"></ul>
+                    共46条记录
+                </div>
+
+            </div><!-- end 列表 -->
+
+        </div>
+        </div><!-- end 右侧主内容 -->
+
+</div>
+</div>
+<!-- end 个人中心 -->
+
+
+<link rel="stylesheet" type="text/css" href="../../css/jquery.confirm-1.0.css" />
+<script type="text/javascript" src="../../js/jquery.confirm-1.0.js"></script>
+<script type="text/javascript">
+    $(function(){
+        /*全选、反选*/
+        $('.selectAll').on('click',function(){
+            var isChecked = $(this).prop('checked');
+            $(this).closest('.dataTable').find('.selectSingle').prop('checked',isChecked);
+        });
+        /*单选*/
+        $('.selectSingle').on('click',function(){
+            var isChecked = $(this).prop('checked');
+            var singleCheckNumber = $(this).closest('.dataTable').find('.selectSingle').length;
+            var singleCheckedNumber = $(this).closest('.dataTable').find('.selectSingle:checked').length;
+            var isbool = singleCheckNumber==singleCheckedNumber;
+            $('.selectAll').prop('checked',isbool);
+        });
+    });
+
+    /* 点击“批量指派” */
+    $('#btn-piliang').on('click', function(){
+        var singleCheckedNumber = $('.dataTable').find('.selectSingle:checked').length;
+        if(singleCheckedNumber==0){
+            $.alert({
+                opacity:true,
+                content: '请选择要指派的订单！',
+            });
+        }
+    });
+
+</script>
+
+<!-- start 正式开发去掉这2个js文件 -->
+<script type="text/javascript" src="../vue.js"></script>
+<script type="text/javascript" src="../vue.component.js"></script>
+<!-- end 正式开发去掉这2个js文件 -->
+
+</body>
+</html>

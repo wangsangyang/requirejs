@@ -1,0 +1,167 @@
+@charset "utf-8";
+*{ margin:0; padding:0; font-weight: normal; box-sizing:border-box; }
+html,body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em,i,b,strong{margin:0; padding:0; font-weight: normal; box-sizing:border-box; }
+ul,ol,li{list-style:none;}
+a{text-decoration:none; }
+img{ border:0;}
+i,em,b,strong{font-style:normal; }
+table{border-collapse:collapse; }
+input,select,textarea,button{ outline:none; font-family:"Microsoft Yahei","微软雅黑"; }
+*:focus{outline:none}
+html,body{width:100%; height: 100%; font-family:"Microsoft Yahei","微软雅黑"; font-size: 14px; }
+
+/** ---------- create by wangsongyang in 2016.03.24 ---------- **/
+/** ---------- 此css文件存放关于商标业务、专利业务、版权业务、创业服务的二级页面样式 ---------- **/
+
+/* ---------- start 商标业务 ---------- */
+.erBusiness-wrap{ width: 100%; min-width: 1240px; }
+.erBusiness-wrap .erBusiness{ width: 1240px; margin: auto; overflow: hidden; }
+.erBusiness-wrap .erBusiness-left{ width: 870px; float: left; }
+.erBusiness-wrap .erBusiness-right{ width: 310px; float: right; }
+/* start 左侧内容 */
+/*块1*/
+.erBusiness-wrap .erBusiness-left .content-item{ margin-top: 35px;}
+.erBusiness-wrap .erBusiness-left .content-item .item-header{ color: #555; font-size: 0; padding-bottom: 14px; }
+.erBusiness-wrap .erBusiness-left .content-item .item-header .s1{ display: inline-block; font-size: 24px; }
+.erBusiness-wrap .erBusiness-left .content-item .item-header .s1 .color{ color: #f08c2f; }
+.erBusiness-wrap .erBusiness-left .content-item .item-header .s2{ display: inline-block; font-size: 16px; margin-left: 20px; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body{ height: 208px; border: solid 1px #f0f0f0; margin-top: -1px; overflow: hidden; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t1{ float: left; text-align: center; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t1 .list{ width: 190px; height: 208px; padding: 0 15px; border-right: solid 1px #f0f0f0; float: left; position: relative; overflow: hidden; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t1 .list .text .icon{ display: inline-block; width: 54px; height: 50px; margin-top: 24px; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t1 .list .text .p1{ font-size: 15px; color: #555; margin-top: 10px; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t1 .list .text .p1 .color{ color: #f08c2f; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t1 .list .text .p2{ font-size: 12px; color: #f08c2f; margin-top: 12px; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t1 .list .text .p2 i{ font-size: 22px; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t1 .list .text .p3{ font-size: 10px; color: #555; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t1 .list .text .p3 span{ display: block; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t1 .list .text .p3 .s1{ text-align: right; margin: 4px 0px 2px; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t1 .list .text .p3 .icon-duibibar{ width: 148px; height: 11px; margin-top: 0; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t1 .list .text .p3 .s3{ text-align: left; text-indent: 30px; margin-top: 2px; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t1 .list .shadow{ visibility: hidden; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-color: #fff;
+    -webkit-transition: 0.6s ease;
+    -moz-transition: 0.6s ease;
+    -ms-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
+    transition: 0.6s ease;
+
+    -webkit-transform: translate(0,100%);
+    -moz-transform: translate(0,100%);
+    -ms-transform: translate(0,100%);
+    -o-transform: translate(0,100%);
+    transform: translate(0,100%);
+}
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t1 .list .shadow dl{ height: 155px; padding: 0 15px; background-color: #f08c2f; color: #fff; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t1 .list .shadow dl dt{ padding: 20px 0 12px; background: url(../images/shadow-line-bg.jpg) center bottom no-repeat; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t1 .list .shadow dl dd{ line-height: 21px; padding: 8px 0 0; font-size: 12px; font-family: "宋体",SimSun; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t1 .list .btn{ display: inline-block; width: 75px; height: 24px; line-height: 22px; margin-top: 15px; border: solid 1px #f08c2f; font-size: 12px; color: #f08c2f; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t1 .list:hover .shadow{
+    visibility: visible;
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0,0);
+}
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2{ float: left; width: 488px; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 .t2-title{ height: 30px; border-bottom: solid 1px #f5f5f5; font-size: 14px; color: #555; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 .t2-title a{ color: #555; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 dl{ height: 120px; padding:10px; border-bottom: solid 1px #f0f0f0; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 dl dt{ float: left; width: 230px; height: 100%; overflow: hidden; position: relative; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 dl dt img{ width: 100%; min-height: 100%; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 dl dt .img-title-bar{ width: 100%; height: 30px; line-height: 30px; position: absolute; left: 0; bottom: 0; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 dl dt .img-title-bar .text{ display: block; width: 100%; height: 100%; padding: 0 8px; color: #fff; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; position: absolute; left: 0; top: 0; z-index: 2; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 dl dt .img-title-bar .shadow-bar{ display: block; width: 100%; height: 100%; background-color: #000; position: absolute; left: 0; top: 0; z-index: 1; opacity: 0.66; filter:alpha(opacity=66); }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 dl dt .img-title-bar a{ color: #fff; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 dl dd{ float: left; margin-left: 15px; padding: 10px 0px 0px; width: 222px; line-height: 24px; font-size: 12px; color: #999; overflow: hidden; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 dl dd a{ color: #999; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 dl dd h4{ height: 20px; margin: -2px 0px 12px; font-size: 14px; color: #f08c2f; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 dl dd h4 a{ color: #f08c2f; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 dl dd p{ height: 55px; overflow: hidden; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 a:hover{ text-decoration: underline; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 img{
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 img:hover{
+    -webkit-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    transform: scale(1.06);
+}
+/* 成功案例 */
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 .success-case{ height: 86px; padding: 14px 0; overflow: hidden; position: relative; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 .success-case .item{ position: relative; width: 5000px; height: 100%; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 .success-case .item .list{ float: left; width: 163px; height: 100%; padding: 0px 15px; overflow: hidden; text-align: center; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 .success-case .item .list span{ display: inline-block; height: 100%; vertical-align: middle; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 .success-case .item .list img{ max-width: 90%; vertical-align: middle; }
+/*左右箭头按钮+提示文字*/
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 .success-case .icon{ width: 13px; height: 20px; background-color: #d9d9d9; position: absolute; top: 50%; margin-top: -10px; cursor: pointer; z-index: 2; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 .success-case .icon-arrow-left-2{ left: 0; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 .success-case .icon-arrow-right-2{ right: 0;  }
+.erBusiness-wrap .erBusiness-left .content-item .item-body .t2 .success-case .flip-tip{ display: none; position: absolute; bottom: 2px; left: 235px; color: #ee8b3c; font-size: 10px; z-index: 2; }
+/* item-body-2 */
+.erBusiness-wrap .erBusiness-left .content-item .item-body-2 .t2{ padding: 10px; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body-2 .t2 dl{ height: 156px; padding: 10px 0 0; border-bottom: 0; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body-2 .t2 dl dd{ height: 140px; }
+/* item-body-3 */
+.erBusiness-wrap .erBusiness-left .content-item .item-body-3 .t2{ width: 298px; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body-3 .t2 dl dt{ width: 100%; height: 135px; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body-3 .t2 dl dd{ width: 100%; height: 60px; margin-left: 0; }
+/* item-body-4 */
+.erBusiness-wrap .erBusiness-left .content-item .item-body-4 .t1 .list{ width: 280px; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body-4 .t2{ width: 588px; padding: 10px; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body-4 .t2 h4 .color{ color: #f08c2f; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body-4 .t2 dl{ height: 156px; padding: 10px 0 0; border-bottom: 0; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body-4 .t2 dl dt{ width: 285px; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body-4 .t2 dl dd{ width: 268px; height: 140px; }
+/* item-body-5 */
+.erBusiness-wrap .erBusiness-left .content-item .item-body-5 .t1 .list{ width: 280px; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body-5 .t2{ width: 308px; padding: 10px; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body-5 .t2 dl{ padding: 0; border-bottom: 0; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body-5 .t2 dl dt{ width: 100%; height: 135px; }
+.erBusiness-wrap .erBusiness-left .content-item .item-body-5 .t2 dl dd{ width: 100%; margin-left: 0; height: 60px; }
+/* 右*/
+.erBusiness-wrap .erBusiness-right{ margin-top: 47px; }
+.erBusiness-wrap .erBusiness-right .content-item{ margin-top: 30px; border: solid 1px #f0f0f0; }
+.erBusiness-wrap .erBusiness-right .content-item .item-header{ border-bottom: solid 1px #f0f0f0; padding: 15px 24px; }
+.erBusiness-wrap .erBusiness-right .content-item .item-header .s1{ margin-bottom: 6px; line-height: 24px; font-size: 12px; color: #999; font-family: "宋体",SimSun; overflow: hidden; }
+.erBusiness-wrap .erBusiness-right .content-item .item-header .s1 dt{ float: left; }
+.erBusiness-wrap .erBusiness-right .content-item .item-header .s1 dd{ float: left; margin: 0 3px; }
+.erBusiness-wrap .erBusiness-right .content-item .item-header .s2{ display: block; height: 45px; line-height: 45px; text-align: center; background-color: #f08c2f; color: #fff; position: relative; }
+.erBusiness-wrap .erBusiness-right .content-item .item-header .s2 .icon{ width: 38px; height: 38px; position: absolute; top: -5px; left: -5px; }
+.erBusiness-wrap .erBusiness-right .content-item .item-body{ padding: 10px 24px 8px; }
+.erBusiness-wrap .erBusiness-right .content-item .item-body .list{ padding: 10px 0; color: #f08c2f; font-family: "宋体",SimSun; }
+.erBusiness-wrap .erBusiness-right .content-item .item-body .list dl{ height: 20px; overflow: hidden; }
+.erBusiness-wrap .erBusiness-right .content-item .item-body .list dl dt{ float: left; height: 100%; }
+.erBusiness-wrap .erBusiness-right .content-item .item-body .list dl dd{ float: left; }
+.erBusiness-wrap .erBusiness-right .content-item .item-body .list .t1 dt{ width: 45px; font-weight: bold; }
+.erBusiness-wrap .erBusiness-right .content-item .item-body .list .t1 dd{ color: #999; width: 212px; padding: 0 0 0 12px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.erBusiness-wrap .erBusiness-right .content-item .item-body .list .t1 dd.color{ color: #f08c2f; }
+.erBusiness-wrap .erBusiness-right .content-item .item-body .list .t2{ font-size: 12px; padding-top: 5px; }
+.erBusiness-wrap .erBusiness-right .content-item .item-body .list .t2 dd{ float: right; }
+.erBusiness-wrap .erBusiness-right .content-item .item-body .list .t2 dd .icon-clock{ float: left; width: 14px; height: 14px; margin-right: 5px; }
+.erBusiness-wrap .erBusiness-right .content-item .item-body .list .t2 dd .text{ display: block; float: left; line-height: 14px; }
+/*我也要提问*/
+.erBusiness-wrap .erBusiness-right .content-tiwen .item-header .s2 .icon{ top: -8px; }
+.erBusiness-wrap .erBusiness-right .content-tiwen .scroll-pane{ width: 100%; padding: 0px; height: 360px; overflow: auto; }
+.erBusiness-wrap .erBusiness-right .content-tiwen .item-body .item{ padding: 10px 24px 8px; }
+.erBusiness-wrap .erBusiness-right .content-tiwen .item-body .list{ padding: 10px 0; color: #999; font-size: 12px; }
+.erBusiness-wrap .erBusiness-right .content-tiwen .item-body .list .p1{ height: 20px; line-height: 20px; overflow: hidden; }
+.erBusiness-wrap .erBusiness-right .content-tiwen .item-body .list .p1 .icon-bg-1{ float: left; width: 35px; height: 20px; text-align: center; color: #fff; }
+.erBusiness-wrap .erBusiness-right .content-tiwen .item-body .list .p1 .text{ float: left; width: 216px; padding-left: 8px; height: 100%; font-size: 14px; font-family:"Microsoft Yahei","微软雅黑"; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.erBusiness-wrap .erBusiness-right .content-tiwen .item-body .list .p1 .text .color{ color: #f08c2f; }
+.erBusiness-wrap .erBusiness-right .content-tiwen .item-body .list .p2{ line-height: 24px; padding: 8px 0 4px; }
+/* 选择因为信赖 */
+.erBusiness-wrap .because-trust-wrap{ height: 200px; margin-top: 40px; background-color: #f5f5f5; }
+/* ---------- end 商标业务 ---------- */

@@ -1,0 +1,113 @@
+/* confirm控件 */
+.confirm{ width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index: 999999; font-size: 14px; font-family:"Microsoft Yahei","微软雅黑"; }
+.confirm .close{ display: block; width: 20px; height: 20px; line-height: 20px; position: absolute; top: 5px; right: 5px; z-index: 1; color: #f08b2f; font-style: normal; font-weight: normal; font-size: 24px; text-align: center; cursor: pointer; opacity: 1; text-shadow: none; }
+.confirm .opacity-bg{ display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 0; }
+.confirm .opacity-bg.show{  background-color: #000; opacity: 0.5; filter: alpha(opacity=50); }
+.confirm .container{ width: 350px; position: absolute; top: 25%; left: 50%; margin-left: -175px; z-index: 1; padding: 0px; background-color: #fff; border: solid 1px #d9d9d9; box-shadow: 1px 1px 10px #ddd; }
+.confirm.noborder .container{ border: 0px; box-shadow: none; }
+.confirm .bodyer{ padding: 30px 30px 20px; color: #555; }
+.confirm .footer{ padding: 10px 20px 20px; text-align: right; }
+.confirm .footer .btn{ display: inline-block; text-align: center; line-height: 32px; padding: 0px 25px; background-color: #f08b2f; color: #fff; cursor: pointer; font-size: 12px; margin: 0 8px; border: 0; border-radius: 1px; }
+.confirm .footer .btn-cancel{ background-color: #ddd; color: #444; margin-right: 0; }
+.confirm .footer .btn .glyphicon { margin-right: 5px; }
+
+/* alert控件 */
+.alert{ width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index: 999999; font-size: 14px; font-family:"Microsoft Yahei","微软雅黑"; }
+.alert .close{ display: block; width: 20px; height: 20px; line-height: 20px; position: absolute; top: 5px; right: 5px; z-index: 1; color: #f08b2f; font-style: normal; font-weight: normal; font-size: 24px; text-align: center; cursor: pointer; opacity: 1; text-shadow: none; }
+.alert .opacity-bg{ display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 0; }
+.alert .opacity-bg.show{  background-color: #000; opacity: 0.5; filter: alpha(opacity=50); }
+.alert .container{ width: 350px; position: absolute; top: 25%; left: 50%; margin-left: -175px; z-index: 1; padding: 0px; background-color: #fff; border: solid 1px #d9d9d9; box-shadow: 1px 1px 10px #ddd; }
+.alert.noborder .container{ border: 0px; box-shadow: none; }
+.alert .bodyer{ padding: 30px 30px 20px; color: #555; }
+.alert .footer{ padding: 10px 20px 20px; text-align: center; }
+.alert .footer .btn{ display: inline-block; text-align: center; line-height: 32px; padding: 0px 30px; background-color: #f08b2f; color: #fff; cursor: pointer; font-size: 12px; border: 0; border-radius: 1px; }
+.alert .footer .btn .glyphicon { margin-right: 5px; }
+
+/* blank空白弹窗 */
+.blankModal{ width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index: 999999; font-size: 14px; font-family:"Microsoft Yahei","微软雅黑"; }
+.blankModal .opacity-bg{ display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 0; }
+.blankModal .opacity-bg.show{  background-color: #000; opacity: 0.5; filter: alpha(opacity=50); }
+.blankModal .container{ width: 300px; position: absolute; top: 25%; left: 0; right: 0; margin: auto; z-index: 1; padding: 0px; background-color: #fff; border: solid 1px #d9d9d9; box-shadow: 1px 1px 10px #ddd; border-radius: 3px; }
+.blankModal.noborder .container{ border: 0px; box-shadow: none; }
+.blankModal .bodyer{ padding: 20px 30px; color: #f08b2f; font-size: 16px; text-align: center; }
+
+/* 自定义模态窗 */
+.myModal{ display: none; width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index: 999999; font-size: 14px; font-family:"Microsoft Yahei","微软雅黑"; }
+.myModal.show{ display: block; }
+.myModal .close{ display: block; width: 20px; height: 20px; line-height: 20px; position: absolute; top: 5px; right: 5px; z-index: 1; color: #eee; font-style: normal; font-weight: normal; font-size: 24px; text-align: center; cursor: pointer; opacity: 1; text-shadow: none; }
+.myModal .opacity-bg{ display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-color: #000; opacity: 0.5; filter: alpha(opacity=50); z-index: 0; }
+.myModal .container{ width: 500px; position: absolute; top: 20%; left: 50%; margin-left: -175px; z-index: 1; padding: 0px; background-color: #f08b2f; }
+.myModal .header{ color: #fff; padding: 9px 10px 12px; font-size: 15px; }
+.myModal .bodyer{ padding: 15px 10px; font-size: 15px; background-color: #fff; }
+.myModal .footer{ padding: 10px; padding-top: 20px; text-align: center; background-color: #fff; }
+.myModal .footer .btn{ display: inline-block; text-align: center; line-height: 32px; padding: 0px 25px; background-color: #f08b30; color: #fff; cursor: pointer; font-size: 12px; margin: 0 8px; border: 0; border-radius: 1px; }
+.myModal .footer .btn-cancel{ background-color: #ccc; color: #000; margin-right: 0; }
+.myModal .footer .btn .glyphicon { margin-right: 5px; }
+
+/* 自定义loading模态窗 */
+.loadingModal{ display: block ; width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index: 999999; font-size: 14px; font-family:"Microsoft Yahei","微软雅黑"; }
+.loadingModal .opacity-bg{ display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-color: #000; opacity: 0.5; filter: alpha(opacity=50); z-index: 0; }
+.loadingModal .myloading{ width: 130px; position: absolute; top: 30%; left: 50%; margin-left: -65px; z-index: 1; padding: 0px;  background-color: #fff; border-radius: 5px; }
+.loadingModal .myloading .img{ display: inline-block; width: 100%; height: 75px; background: #fff url(img/loading.gif) no-repeat center 10px; border-radius: 5px; }
+.loadingModal .myloading .text{ display: block; text-align: center; font-size: 14px; padding: 0px 10px 15px; color: #f08b2f; }
+
+
+/* 输入框 */
+.myInput{ width: 370px; padding: 8px; border: solid 1px #e7e7e7; border-radius: 3px; }
+.myInputGroup{ display: inline-block; position: relative; }
+.myInputGroup .myBtn{ display: block; position: absolute; top: 0px; right: 0px; height: 100%; width: 40px; background-color: transparent; border: 0; cursor: pointer; color: #888; }
+.myInputGroup .myBtn .iconfont{ display: block; width: 40px; height: 20px; line-height: 19px; border-left: solid 1px #edeef1; font-size: 14px; font-weight: bold; }
+/* 多选框checkbox */
+.myCheckBoxs{ *zoom: 1; }
+.myCheckBoxs:after{ content: ""; display: block; clear: both; height: 0; visibility: hidden; }
+.myCheckBoxs .label{ display: block; float: left; margin-bottom: 10px; }
+.myCheckBoxs .label .iconfont{ font-size: 12px; margin-right: 5px; vertical-align: 1px; }
+.myCheckBoxs .label .icon-fuxuanxuanzhong{ display: none; }
+.myCheckBoxs .label .icon-fuxuanweixuan{ display: inline-block; }
+.myCheckBoxs .label.checked{ color: #f08b2f; }
+.myCheckBoxs .label.checked .icon-fuxuanxuanzhong{ display: inline-block; }
+.myCheckBoxs .label.checked .icon-fuxuanweixuan{ display: none; }
+/* 单选框myRadioBoxs */
+.myRadioBoxs{ *zoom: 1; padding: 2px 0 0 2px; }
+.myRadioBoxs:after{ content: ""; display: block; clear: both; height: 0; visibility: hidden; }
+.myRadioBoxs .label{ display: block; float: left; margin-bottom: 10px; }
+.myRadioBoxs .label .iconfont{ font-size: 14px; margin-right: 5px; }
+.myRadioBoxs .label .icon-iconfontdanxuan{ display: none; }
+.myRadioBoxs .label .icon-danxuan{ display: inline-block; }
+.myRadioBoxs .label.checked{ color: #f08b2f; }
+.myRadioBoxs .label.checked .icon-iconfontdanxuan{ display: inline-block; }
+.myRadioBoxs .label.checked .icon-danxuan{ display: none; }
+/*下拉框*/
+.mySelect{ display: inline-block; margin-right: 7px; position: relative; }
+.mySelect .select-text{ width: 180px;height: 34px; line-height: 34px; padding: 0 35px 0 15px; border: solid 1px #ddd; border-radius: 3px; cursor: default; position: relative; overflow: hidden; }
+.mySelect .select-text .text{ display: block; float: left; width: 100%; height: 100%; color: #666; overflow: hidden; }
+.mySelect .select-text .arrow{ display: block; width: 30px; height: 20px; position: absolute; top: 6px; right: 0px; border-left: solid 1px #edeef1; text-align: center; }
+.mySelect .select-text .icon-arrowdown{ display: inline-block; width: 0; height: 0; border: 4px solid transparent; border-top: 5px solid #666; margin-top: 7px; }
+.mySelect .select-menu{ display: none; width: 100%; padding: 10px 0; position: absolute; top: 33px; left: 0; border: solid 1px #ddd; background-color: #fff; z-index: 99; border-radius:  0 0 3px 3px; }
+.mySelect .select-menu .menu{ display: block; width: 100%; }
+.mySelect .select-menu .menu a{ display: block; padding: 6px 15px; cursor: default; }
+.mySelect .select-menu .menu a:hover{ color: #f08b2f;}
+.mySelect .select-menu .menu.checked a{ color: #f08b2f;}
+.mySelect.open .select-text{ border-radius: 3px 3px 0 0; }
+.mySelect.open .select-menu{ display: block; }
+select.myinput{width: 180px; padding: 8px; border: solid 1px #e7e7e7; border-radius: 3px;}
+
+/* start 分页 */
+.myPaging{ text-align:center; font-size:0; color:#777; }
+.myPaging a{ color:#777; }
+.myPaging .myPaging-list{ display: inline-block; font-size:0; }
+.myPaging .myPaging-list li{ display:inline-block; font-size:14px; vertical-align: top;}
+.myPaging .myPaging-list li a{ display:block; line-height: 24px; padding:0 8px; text-align:center; }
+.myPaging .myPaging-list li a:hover{ color:#f08b2f; }
+.myPaging .myPaging-list .selected a{ color:#f08b2f; }
+.myPaging .jump-page{ display: inline-block; font-size:0; margin-left: 30px; vertical-align: top; }
+.myPaging .jump-page li{ font-size: 14px; }
+.myPaging .jump-page .j-input{ width: 35px; height: 24px; margin: 0 2px; border:solid 1px #e5e5e5; text-align: center; }
+.myPaging .jump-page .j-btn{ display: inline-block; width: 50px; height: 24px; line-height: 24px; margin-left: 8px; border:0; background-color: #f08b2f; color: #fff; cursor: pointer; vertical-align: top; text-align: center; border-radius: 3px; }
+
+.myPaging .j-input{ width: 35px; height: 24px; margin: 0 2px; border:solid 1px #e5e5e5; text-align: center; vertical-align: top; }
+.myPaging .j-btn{ display: inline-block; width: 50px; height: 24px; line-height: 24px; margin-left: 8px; border:0; background-color: #f08b2f; color: #fff; cursor: pointer; vertical-align: top; text-align: center; border-radius: 3px; }
+.myPaging .myPaging-list .active a{ color:#f08b2f; }
+/* start 分页 */
+
+

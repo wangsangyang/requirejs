@@ -1,0 +1,307 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>修改资讯</title>
+    <link rel="stylesheet" type="text/css" href="../../bootstrap-3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../bootstrap-3.3.5/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/icon.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/adminManage.css" />
+    <script type="text/javascript" src="../../js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../../bootstrap-3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../js/adminManage.js"></script>
+    <script type="text/javascript" src="../../js/kindeditor/kindeditor-all-min.js"></script>
+    <script type="text/javascript" src="../../js/kindeditor/lang/zh-CN.js"></script>
+    <!-- 让IE6-8也支持HTML5属性、响应式媒体查询 -->
+    <!--[if lt IE 9]>
+    <script src="../../js/html5.js"></script>
+    <script type="text/javascript" src="../../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<!-- start 个人中心 -->
+<div class="adminManage-wrap">
+    <div class="adminManage">
+
+        <!-- start 固定的顶部 -->
+        <div class="adminManage-topBox">
+            <div class="topBox-nav">
+                <h1 class="topBox-nav-title">权大师超级后台</h1>
+                <ul class="topBox-nav-right">
+                    <!-- Single button -->
+                    <div class="btn-group">
+                        <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="glyphicon glyphicon-user"></i><span class="text">18511112222</span><i class="caret"></i>
+                        </div>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="#"><i class="glyphicon glyphicon-user"></i>个人中心</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#"><i class="glyphicon glyphicon-home"></i>返回首页</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="../login/login.html"><i class="glyphicon glyphicon-log-out"></i>安全退出</a></li>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <!-- end 固定的顶部 -->
+
+        <!-- start 左侧导航主导航 -->
+        <div class="adminManage-leftBox">
+            <h1 class="logo"><a href="../main.html"><img src="../../images/logo.png" alt="权大师logo" title="权大师logo" /></a></h1>
+            <ul class="leftBox-nav songti">
+                <li class="menu">
+                    <div class="menu-header">
+                        <em class="icon icon-admin-down"></em>
+                        <span class="text">订单管理</span>
+                    </div>
+                    <ul class="menu-body">
+                        <li><a class="text" href="../orderManage/qiangdan-list.html">抢单队列</a></li>
+                        <li><a class="text" href="../orderManage/notCompleted-list.html">商标业务</a></li>
+                        <li><a class="text" href="#">专利业务</a></li>
+                        <li><a class="text" href="#">版权业务</a></li>
+                        <li><a class="text" href="#">创业业务</a></li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <div class="menu-header">
+                        <em class="icon icon-admin-down"></em>
+                        <span class="text">案件管理</span>
+                    </div>
+                    <ul class="menu-body">
+                        <li><a class="text" href="../caseManage/list.html">商标业务</a></li>
+                        <li><a class="text" href="#">专利业务</a></li>
+                        <li><a class="text" href="#">版权业务</a></li>
+                        <li><a class="text" href="#">创业业务</a></li>
+                        <li><a class="text" href="../caseManage/case-list.html">案件状态管理</a></li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <div class="menu-header">
+                        <em class="icon icon-admin-down"></em>
+                        <span class="text">服务项目管理</span>
+                    </div>
+                    <ul class="menu-body">
+                        <li><a class="text" href="#">商标业务</a></li>
+                        <li><a class="text" href="#">专利业务</a></li>
+                        <li><a class="text" href="#">版权业务</a></li>
+                        <li><a class="text" href="#">创业业务</a></li>
+                        <li><a class="text" href="#">类别管理</a></li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <div class="menu-header">
+                        <em class="icon icon-admin-down"></em>
+                        <span class="text">商标管理</span>
+                    </div>
+                    <ul class="menu-body">
+                        <li><a class="text" href="#">尼斯分类</a></li>
+                        <li><a class="text" href="#">智能推荐设置</a></li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <div class="menu-header">
+                        <em class="icon icon-admin-down"></em>
+                        <span class="text">权知道</span>
+                    </div>
+                    <ul class="menu-body">
+                        <li><a class="text" href="#">知道管理</a></li>
+                        <li><a class="text" href="#">分类管理</a></li>
+                    </ul>
+                </li>
+                <li class="menu open">
+                    <div class="menu-header">
+                        <em class="icon icon-admin-down"></em>
+                        <span class="text">权资讯</span>
+                    </div>
+                    <ul class="menu-body">
+                        <li class="selected"><a class="text" href="../newsManage/news-list.html">资讯管理</a></li>
+                        <li><a class="text" href="../newsManage/news-add.html">添加资讯</a></li>
+                        <li><a class="text" href="../newsManage/type-list.html">分类管理</a></li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <div class="menu-header">
+                        <em class="icon icon-admin-down"></em>
+                        <span class="text">单页管理</span>
+                    </div>
+                    <ul class="menu-body">
+                        <li><a class="text" href="#">单页管理</a></li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <div class="menu-header">
+                        <em class="icon icon-admin-down"></em>
+                        <span class="text">财务管理</span>
+                    </div>
+                    <ul class="menu-body">
+                        <li><a class="text" href="#">账户明细</a></li>
+                        <li><a class="text" href="#">提现申请</a></li>
+                        <li><a class="text" href="#">结算列表</a></li>
+                        <li><a class="text" href="#">结算设置</a></li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <div class="menu-header">
+                        <em class="icon icon-admin-down"></em>
+                        <span class="text">注册用户管理</span>
+                    </div>
+                    <ul class="menu-body">
+                        <li><a class="text" href="#">申请方-消费用户</a></li>
+                        <li><a class="text" href="#">申请方-申请主体</a></li>
+                        <li><a class="text" href="#">申请方-未消费用户</a></li>
+                        <li><a class="text" href="#">代理方-独立代理</a></li>
+                        <li><a class="text" href="#">代理方-机构代理</a></li>
+                        <li><a class="text" href="#">代理方-机构</a></li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <div class="menu-header">
+                        <em class="icon icon-admin-down"></em>
+                        <span class="text">管理员管理</span>
+                    </div>
+                    <ul class="menu-body">
+                        <li><a class="text" href="#">管理员管理</a></li>
+                        <li><a class="text" href="../permissionManage/list.html">分组管理</a></li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <div class="menu-header">
+                        <em class="icon icon-admin-down"></em>
+                        <span class="text">网站配置</span>
+                    </div>
+                    <ul class="menu-body">
+                        <li><a class="text" href="#">代理人设置</a></li>
+                        <li><a class="text" href="">APP设置</a></li>
+                        <li><a class="text" href="">短信设置</a></li>
+                        <li><a class="text" href="">邮件设置</a></li>
+                        <li><a class="text" href="">字符设置</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- end 左侧导航主导航 -->
+
+        <!-- start 右侧主内容 -->
+        <div class="adminManage-rightBox">
+        <div class="main-content">
+
+            <!-- start 面包屑导航 -->
+            <div class="radius-panel">
+                <!-- start 面包屑导航 -->
+                <div class="site">
+                    <ul class="clearfix">
+                        <li class="list title">当前位置：</li>
+                        <li class="list"><a class="text" href="#">权资讯</a></li>
+                        <li class="list arrow">/</li>
+                        <li class="list"><a class="text" href="#">资讯列表</a></li>
+                        <li class="list arrow">/</li>
+                        <li class="list"><a class="text" href="#">修改</a></li>
+                    </ul>
+                </div><!-- end 面包屑导航 -->
+            </div><!-- end 面包屑导航 -->
+
+            <!-- start 已完成列表 -->
+            <div class="radius-panel">
+
+                        <table width="100%" class="layoutTable alignment">
+                                <tbody>
+                                    <tr>
+                                        <td class="td-title">资讯分类</td>
+                                        <td class="td-content">
+                                            <select class="input-max">
+                                                <option>商标业务</option>
+                                                <option>专利业务</option>
+                                                <option>版权业务</option>
+                                                <option>创业业务</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-title">资讯标题</td>
+                                        <td class="td-content"><input type="text" class="input input-max"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-title">来源</td>
+                                        <td class="td-content"><input type="text" class="input input-max" value="新浪网"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-title">seo标题</td>
+                                        <td class="td-content"><input type="text" class="input input-max" value="“十三五”第一份“一号文件”聚焦三农，涉及知识产权"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-title">SEO关键词</td>
+                                        <td class="td-content"><input type="text" class="input input-max" value="十三五,知识产权"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-title">资讯简述</td>
+                                        <td class="td-content"><textarea></textarea></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-title">seo简述</td>
+                                        <td class="td-content"><textarea></textarea></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-title">资讯内容</td>
+                                        <td class="td-content"><textarea id="myEditor" name="content" style="height: 400px;"></textarea></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-title">发布时间</td>
+                                        <td class="td-content"><input type="text" class="input input-max"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-title">发布人</td>
+                                        <td class="td-content"><input type="text" class="input input-max"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-title">是否推荐首页</td>
+                                        <td class="td-content">
+                                            <label class="labelCheck"><input type="radio" name="tjshouye">是</label>
+                                            <label class="labelCheck"><input type="radio" name="tjshouye">否</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-title">是否栏目置顶</td>
+                                        <td class="td-content">
+                                            <label class="labelCheck"><input type="radio" name="lmzhiding">是</label>
+                                            <label class="labelCheck"><input type="radio" name="lmzhiding">否</label>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2">
+                                            <div class="btns btns-max text-center" style="padding: 20px 0;">
+                                                <a class="btn">提&nbsp;&nbsp;交</a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+
+
+            </div><!-- end 已完成列表 -->
+
+        </div>
+        </div><!-- end 右侧主内容 -->
+
+</div>
+</div>
+<!-- end 个人中心 -->
+
+
+<script type="text/javascript">
+    /*初始化编辑器*/
+    var editor;
+    KindEditor.ready(function(K) {
+        editor = K.create('#myEditor', {
+
+            allowPreviewEmoticons : false,
+            allowImageUpload : true
+        });
+    });
+</script>
+</body>
+</html>

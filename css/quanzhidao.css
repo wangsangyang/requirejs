@@ -1,0 +1,346 @@
+@charset "utf-8";
+*{ margin:0; padding:0; font-weight: normal; box-sizing:border-box; }
+html,body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em,i,b,strong{margin:0; padding:0; font-weight: normal; box-sizing:border-box; }
+ul,ol,li{list-style:none;}
+a{text-decoration:none; }
+img{ border:0;}
+i,em,b,strong{font-style:normal; }
+table{border-collapse:collapse; }
+input,select,textarea,button{ outline:none; font-family:"Microsoft Yahei","微软雅黑"; }
+*:focus{outline:none}
+html,body{width:100%; height: 100%; font-family:"Microsoft Yahei","微软雅黑"; font-size: 14px; }
+
+/** ---------- create by wangsongyang in 2016.04.11 ---------- **/
+/** ---------- 此css文件存放关于权知道的样式 ---------- **/
+
+/* ---------- start 权知道 ---------- */
+.quanzhidaoQA-wrap{ width: 100%; min-width: 1240px; }
+.quanzhidaoQA-wrap .quanzhidaoQA{ padding: 0px 0px 75px; overflow: hidden; }
+/* 搜索框 */
+.quanzhidaoQA-wrap .n-box{ height: 128px; text-align: center; padding: 35px 0px 0px; font-size: 0; background-color: #ee994a; }
+.quanzhidaoQA-wrap .n-box .qds-search-common{ border: solid 4px #f2b67f; }
+.quanzhidaoQA-wrap .n-box .qds-search-common .search-select .select-title{ border: 0; }
+.quanzhidaoQA-wrap .n-box .qds-search-common .search-text{ border: 0; border-left: solid 1px #f0f0f0; }
+.quanzhidaoQA-wrap .n-box .qds-search-common .search-btn{ width: 52px; height: 50px; background-color: #fff; }
+.quanzhidaoQA-wrap .n-box .btn-fubu-order{ display: inline-block; margin-left: 28px; width: 150px; height: 58px; line-height: 52px; text-align: center; color: #fff;
+    font-size: 14px; position: relative; vertical-align: top; background-color: #f08c2f; border: solid 4px #f2b67f; overflow: hidden; cursor: pointer;
+}
+.quanzhidaoQA-wrap .n-box .btn-fubu-order .icon{ width: 38px; height: 38px; position: absolute; top: -6px; left: -3px; }
+/* 第一层tab商标业务、专利业务、版权业务、创业服务、其他业务 */
+.quanzhidaoQA-wrap .mytab .mytap-header-1{ width: 100%; padding-bottom: 20px; background: #fff url(../images/bg-5.jpg) no-repeat right top; }
+.quanzhidaoQA-wrap .mytab .mytap-header-1 .box{ width: 1240px; margin: auto; }
+.quanzhidaoQA-wrap .mytab .mytap-header-1 .item{ width: 1156px; height: 56px; padding: 16px 0px 0px 85px; background: #fff url(../images/bg-4.jpg) no-repeat right top; }
+.quanzhidaoQA-wrap .mytab .mytap-header-1 .item .list{ margin-right: 12px; }
+.quanzhidaoQA-wrap .mytab .mytap-header-1 .item .list a{ padding: 0 50px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.quanzhidaoQA-wrap .mytab .mytap-body{ width: 1240px; margin: auto; overflow: hidden; }
+.quanzhidaoQA-wrap .mytab .mytap-body-1{ margin-top: 35px; }
+/* 已回答、等我回答tab列表 */
+.quanzhidaoQA-wrap .mytab .mytap-body .mytab .mytap-header-2 .list{ margin-right: -1px; padding: 0; border-bottom: 0; }
+.quanzhidaoQA-wrap .mytab .mytap-body .mytab .mytap-header-2 .list:hover{ background-color: #fff; }
+.quanzhidaoQA-wrap .mytab .mytap-body .mytab .mytap-header-2 .list a{ padding: 0 50px; background-color: #fff; color: #999; border: solid 1px #f0f0f0; }
+.quanzhidaoQA-wrap .mytab .mytap-body .mytab .mytap-header-2 .list.selected a{ background-color: #fff; color: #f08c2f; border: solid 1px #f0f0f0; border-top: solid 3px #f08c2f; }
+.quanzhidaoQA-wrap .mytab .mytap-body .list{ padding: 25px 0 25px 5px; border-bottom: dashed 1px #f0f0f0; overflow: hidden; }
+.quanzhidaoQA-wrap .mytab .mytap-body .list:hover{ background-color: #f9f9f9; }
+.quanzhidaoQA-wrap .mytab .mytap-body .list .c-td{ float: left; height: 18px; line-height: 18px; }
+.quanzhidaoQA-wrap .mytab .mytap-body .list .c-td .icon{ float: left; width: 14px; height: 14px; }
+.quanzhidaoQA-wrap .mytab .mytap-body .list .c-td .s1{ display: block; float: left; width: 100%; margin-left: -14px; padding: 0 10px 0 20px; font-size: 12px; color: #999; font-family: "宋体",SimSun; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.quanzhidaoQA-wrap .mytab .mytap-body .list .c-td .s1 a{ color: #999; }
+.quanzhidaoQA-wrap .mytab .mytap-body .list .c-td .s1 a:hover{ color: #f08c2e; }
+.quanzhidaoQA-wrap .mytab .mytap-body .list .t-1{ width: 660px; }
+.quanzhidaoQA-wrap .mytab .mytap-body .list .t-1 .icon{ width: auto; line-height: 17px; margin-right: 10px; font-size: 12px; color: #f08c2e; }
+.quanzhidaoQA-wrap .mytab .mytap-body .list .t-1 .s1{ color: #777; font-size: 14px; margin-left: -160px; padding-left: 160px; }
+.quanzhidaoQA-wrap .mytab .mytap-body .list .t-2{ width: 160px; }
+.quanzhidaoQA-wrap .mytab .mytap-body .list .t-2 .icon{ margin: 2px 0 0; }
+.quanzhidaoQA-wrap .mytab .mytap-body .list .t-3{ width: 110px; }
+.quanzhidaoQA-wrap .mytab .mytap-body .list .t-3 .icon{ width: 16px; height: 9px; margin: 4px 0 0; }
+.quanzhidaoQA-wrap .mytab .mytap-body .list .t-3 .s1{ margin-left: -16px; padding: 0 10px 0 22px; }
+.quanzhidaoQA-wrap .mytab .mytap-body .list .t-4{ width: 180px; }
+.quanzhidaoQA-wrap .mytab .mytap-body .list .t-4 .icon{ margin: 2px 0 0; }
+.quanzhidaoQA-wrap .mytab .mytap-body .list .t-5{ width: 120px; }
+.quanzhidaoQA-wrap .mytab .mytap-body .list .t-5 .s1 a{ color: #f08c2f; }
+.quanzhidaoQA-wrap .mytab .mytap-body .list .t-5 .icon{ margin: 2px 0 0; }
+.quanzhidaoQA-wrap .mytab .mytap-body .mypaging{ margin-top: 35px; text-align: left; }
+/*已回答*/
+.quanzhidaoQA-wrap .mytab .mytap-body .content{ overflow: hidden;}
+.quanzhidaoQA-wrap .mytab .mytap-body .have-answer{ width: 910px; float: left; }
+.quanzhidaoQA-wrap .mytab .mytap-body .have-answer .list{ padding-left: 5px; }
+.quanzhidaoQA-wrap .mytab .mytap-body .have-answer .list .t-title{ overflow: hidden; }
+.quanzhidaoQA-wrap .mytab .mytap-body .have-answer .list .t-title .t-1{ width: 685px; }
+.quanzhidaoQA-wrap .mytab .mytap-body .have-answer .list .t-title .t-3{ width: 100px;}
+.quanzhidaoQA-wrap .mytab .mytap-body .have-answer .list .t-title .t-4{ width: 120px; }
+.quanzhidaoQA-wrap .mytab .mytap-body .have-answer .list .t-title .t-4 .s1{ margin: 0; padding: 0 10px 0 0px; }
+.quanzhidaoQA-wrap .mytab .mytap-body .have-answer .list .t-p{ padding: 12px 0px 0; font-size: 12px; color: #999; font-family: "宋体",SimSun; line-height: 24px; }
+.quanzhidaoQA-wrap .mytab .mytap-body .have-answer .list .t-p a{ color: #999; }
+.quanzhidaoQA-wrap .mytab .mytap-body .have-answer .list .t-p a:hover{ color: #f08c2f; }
+.quanzhidaoQA-wrap .mytab .mytap-body .have-answer .list .t-bottom{ overflow: hidden; padding: 5px 0 0; font-size: 12px; color: #999; font-family: "宋体",SimSun; }
+.quanzhidaoQA-wrap .mytab .mytap-body .have-answer .list .t-bottom dt{ float: left; }
+.quanzhidaoQA-wrap .mytab .mytap-body .have-answer .list .t-bottom .t-b-1{ width: 240px; }
+.quanzhidaoQA-wrap .mytab .mytap-body .have-answer .list .t-bottom .t-b-2{ width: 160px; }
+.quanzhidaoQA-wrap .mytab .mytap-body .have-answer .list .t-bottom .icon{ float: left; width: 14px; height: 14px;}
+.quanzhidaoQA-wrap .mytab .mytap-body .have-answer .list .t-bottom .s1{ width: 100%; margin-left: -14px; padding: 0 10px 0 20px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+/*右侧：代理人*/
+.quanzhidaoQA-wrap .c-right{ width: 250px; float: right; }
+.quanzhidaoQA-wrap .c-right .item{ width: 100%; border: solid 1px #f0f0f0; margin-top: 15px; }
+.quanzhidaoQA-wrap .c-right .item .i-header{ padding: 0 10px; height: 34px; border-bottom: solid 1px #f0f0f0; color: #818181; }
+.quanzhidaoQA-wrap .c-right .item .i-header .text{ display: block; float: left; margin: 10px 0 0; }
+.quanzhidaoQA-wrap .c-right .item .i-header .icon-refresh{ width: 12px; height: 12px; float: right; margin: 10px 0 0; }
+.quanzhidaoQA-wrap .c-right .item .i-body{ padding: 0 15px; }
+.quanzhidaoQA-wrap .c-right .item .i-body dl{ overflow: hidden; padding: 16px 0; margin-bottom: -1px; border-bottom: solid 1px #ececec; }
+.quanzhidaoQA-wrap .c-right .item .i-body dl dt{ float: left; width: 110px; height: 80px; overflow: hidden; }
+.quanzhidaoQA-wrap .c-right .item .i-body dl dt img{ width: 100%; min-height: 100%; }
+.quanzhidaoQA-wrap .c-right .item .i-body dl dd{ float: right; width: 100px; height: 80px; padding: 8px 0 0; font-size: 12px; overflow: hidden; }
+.quanzhidaoQA-wrap .c-right .item .i-body dl dd a{ color: #818181; }
+.quanzhidaoQA-wrap .c-right .item .i-body dl dd span{ display: block; margin: 5px 0; }
+.quanzhidaoQA-wrap .c-right .item .i-body dl dd .s1{ color: #818181; }
+.quanzhidaoQA-wrap .c-right .item .i-body dl dd .s2{ font-family: "宋体",SimSun; color: #999; }
+.quanzhidaoQA-wrap .c-right .item .i-body dl dd .s3{ font-family: "宋体",SimSun; color: #999; }
+.quanzhidaoQA-wrap .c-right .item1{ margin-top: 0; }
+.quanzhidaoQA-wrap .c-right .item1 .i-body dl dt{ border-radius: 50%; width: 80px; }
+.quanzhidaoQA-wrap .c-right .item1 .i-body dl dd{ width: 130px; padding-top: 0; }
+.quanzhidaoQA-wrap .c-right .item1 .i-body dl dd .p1{ overflow: hidden; margin: 0px 0 2px; font-size: 0; }
+.quanzhidaoQA-wrap .c-right .item1 .i-body dl dd .p1 .s1{ display: inline-block; font-size: 16px; color: #555; }
+.quanzhidaoQA-wrap .c-right .item1 .i-body dl dd .p1 .icon{ display: inline-block;  width: 33px; height: 13px; margin: 0 0 0 6px; }
+.quanzhidaoQA-wrap .c-right .item1 .i-body dl dd .p2{ color: #999; font-family: "宋体",SimSun; }
+.quanzhidaoQA-wrap .c-right .item1 .i-body dl dd .p3{ font-size: 12px; font-family: "宋体",SimSun; }
+.quanzhidaoQA-wrap .c-right .item1 .i-body dl dd .p3 span{ float: left; }
+.quanzhidaoQA-wrap .c-right .item1 .i-body dl dd .p3 .s2{ margin-left: 12px; }
+.quanzhidaoQA-wrap .c-right .item1 .i-body dl dd .p3 .s2 .icon{ margin-right: 4px; }
+.quanzhidaoQA-wrap .c-right .item1 .i-body dl dd .p3 .icon{ width: 12px; height: 12px; float: left; }
+.quanzhidaoQA-wrap .c-right .item1 .i-body dl dd .p3 .color{ color: #ee8c3c; }
+.quanzhidaoQA-wrap .c-right .item2 .i-body dl:hover dd span{ color: #ee8c3c; }
+.quanzhidaoQA-wrap .c-right .item-ad{ padding: 5px; }
+.quanzhidaoQA-wrap .c-right .item-ad img{ width: 100%; height: 100%; }
+/*搜索无结果*/
+.quanzhidaoQA-wrap .no-search-result{ height: 80px; color: #777; border: dashed 1px #f0f0f0; padding: 10px 22px; }
+.quanzhidaoQA-wrap .no-search-result dl{ height: 100%; }
+.quanzhidaoQA-wrap .no-search-result dl dt{ float: left; height: 100%; }
+.quanzhidaoQA-wrap .no-search-result dl dt .icon{ width: 54px; height: 54px; }
+.quanzhidaoQA-wrap .no-search-result dl dd{ float: left; height: 100%; margin-left: 22px; }
+.quanzhidaoQA-wrap .no-search-result dl dd .p1{ padding: 6px 0 5px; }
+.quanzhidaoQA-wrap .no-search-result dl dd .p1 .color{ color: #555; font-size: 16px; }
+.quanzhidaoQA-wrap .no-search-result dl dd .p2{ font-size: 12px; }
+.quanzhidaoQA-wrap .no-search-result dl dd .p2 .color{ color: #ee8c3c; display: inline-block; padding: 0 3px; }
+/*搜索数量*/
+.quanzhidaoQA-wrap .search-number{ padding: 28px 2px 20px; color: #999; font-size: 12px; font-family: "宋体",SimSun; border-bottom: solid 1px #f0f0f0; }
+.quanzhidaoQA-wrap .search-number .color{ color: #ee8c3c; display: inline-block; padding: 0 2px; }
+/*代理人回帖*/
+.quanzhidaoQA-wrap .bbs-post{ width: 1240px; margin: auto; padding: 35px 0 0; }
+.quanzhidaoQA-wrap .bbs-post .bbs-post-left{ width: 910px; float: left; }
+/*主帖子*/
+.quanzhidaoQA-wrap .bbs-post .bbs-post-left .main-post{ padding-left: 5px; }
+.quanzhidaoQA-wrap .bbs-post .bbs-post-left .main-post .t-title{ font-size: 28px; color: #777; }
+.quanzhidaoQA-wrap .bbs-post .bbs-post-left .main-post .t-p{ padding: 14px 0px 0; font-size: 14px; color: #999; line-height: 26px; }
+.quanzhidaoQA-wrap .bbs-post .bbs-post-left .main-post .t-p a{ color: #999; }
+.quanzhidaoQA-wrap .bbs-post .bbs-post-left .main-post .t-p a:hover{ color: #f08c2f; }
+.quanzhidaoQA-wrap .bbs-post .bbs-post-left .main-post .t-bottom{ overflow: hidden; padding: 14px 0 0; font-size: 12px; color: #999; font-family: "宋体",SimSun; }
+.quanzhidaoQA-wrap .bbs-post .bbs-post-left .main-post .t-bottom a{ color: #999; }
+.quanzhidaoQA-wrap .bbs-post .bbs-post-left .main-post .t-bottom .t-b{ float: left; margin-right: 25px; }
+.quanzhidaoQA-wrap .bbs-post .bbs-post-left .main-post .t-bottom .icon{ float: left; width: 14px; height: 14px; margin-right: 8px; }
+.quanzhidaoQA-wrap .bbs-post .bbs-post-left .main-post .t-bottom .icon-eye{ width: 16px; height: 9px; margin: 2px 8px 0 0; }
+.quanzhidaoQA-wrap .bbs-post .bbs-post-left .main-post .t-bottom .icon-share-1{ width: 16px; height: 16px; margin-top: -2px; }
+.quanzhidaoQA-wrap .bbs-post .bbs-post-left .main-post .t-bottom .color{ color: #f08b2f; display: inline-block; padding: 0 4px; }
+/*最佳回贴*/
+.quanzhidaoQA-wrap .main-reply{ margin: 50px 0 0; }
+.quanzhidaoQA-wrap .main-reply .agent{ height: 100px; }
+.quanzhidaoQA-wrap .main-reply .agent .agent-head{ float: left; width: 100px; height: 100%; border-radius: 50%; overflow: hidden; }
+.quanzhidaoQA-wrap .main-reply .agent .agent-head img{ width: 100%; min-height: 100%; }
+.quanzhidaoQA-wrap .main-reply .agent .agent-intro{ float: left; height: 100%; margin-left: 20px; }
+.quanzhidaoQA-wrap .main-reply .agent .agent-intro .p1{ overflow: hidden; margin: 5px 0px 10px; font-size: 0; }
+.quanzhidaoQA-wrap .main-reply .agent .agent-intro .p1 span{ display: block; float: left; font-size: 12px; color: #999; margin: 4px 0 0; }
+.quanzhidaoQA-wrap .main-reply .agent .agent-intro .p1 .s1{ font-size: 16px; color: #555; margin-top: -1px; }
+.quanzhidaoQA-wrap .main-reply .agent .agent-intro .p1 .s2{ font-family: "宋体",SimSun; }
+.quanzhidaoQA-wrap .main-reply .agent .agent-intro .p1 .s3{ font-family: "宋体",SimSun; }
+.quanzhidaoQA-wrap .main-reply .agent .agent-intro .p1 .icon{ display: block; float: left; }
+.quanzhidaoQA-wrap .main-reply .agent .agent-intro .p1 .icon-renzheng{ width: 33px; height: 13px; margin: 4px 30px 0px 5px; }
+.quanzhidaoQA-wrap .main-reply .agent .agent-intro .p1 .icon-zan{ width: 12px; height: 12px; margin: 4px 4px 0px 25px; }
+.quanzhidaoQA-wrap .main-reply .agent .agent-intro .p1 a:hover .icon-zan{ background-position: -316px 0px; }
+.quanzhidaoQA-wrap .main-reply .agent .agent-intro .p2{ font-size: 12px; color: #999; font-family: "宋体",SimSun; }
+.quanzhidaoQA-wrap .main-reply .agent .agent-intro .p-btn{ margin-top: 15px; font-family: "宋体",SimSun; font-size: 0; }
+.quanzhidaoQA-wrap .main-reply .agent .agent-intro .p-btn .btn{ display: inline-block; margin: 0 12px 0 0; height: 30px; line-height: 28px; border: solid 1px #f08c2f; color: #f08c2f; text-align: center; font-size: 0; }
+.quanzhidaoQA-wrap .main-reply .agent .agent-intro .p-btn .btn .s1{ display: inline-block; height: 100%; font-size: 12px; vertical-align: middle; }
+.quanzhidaoQA-wrap .main-reply .agent .agent-intro .p-btn .btn .icon-message{ display: inline-block; width: 16px; height: 14px; vertical-align: middle; margin-right: 6px; }
+.quanzhidaoQA-wrap .main-reply .agent .agent-intro .p-btn .btn-1{ width: 130px; }
+.quanzhidaoQA-wrap .main-reply .agent .agent-intro .p-btn .btn-2{ width: 86px; }
+.quanzhidaoQA-wrap .main-reply .agent .agent-intro .color{ color: #ee8c3c; }
+/*帖子的内容*/
+.quanzhidaoQA-wrap .main-reply .post-content{ margin-top: 20px; padding: 15px 15px 20px; border: solid 1px #f0f0f0; position: relative; }
+.quanzhidaoQA-wrap .main-reply .post-content .icon-arrow-up-1{ width: 22px; height: 15px; position: absolute; top: -15px; left: 36px; background-color: #fff; }
+.quanzhidaoQA-wrap .main-reply .post-content .t-p{ font-size: 12px; color: #999; font-family: "宋体",SimSun; line-height: 26px; }
+.quanzhidaoQA-wrap .main-reply .post-content .t-bottom{ overflow: hidden; padding: 10px 0 0; font-size: 12px; color: #999; font-family: "宋体",SimSun; }
+.quanzhidaoQA-wrap .main-reply .post-content .t-bottom a{ color: #999; }
+.quanzhidaoQA-wrap .main-reply .post-content .t-bottom dt{ float: left; margin-right: 45px; }
+.quanzhidaoQA-wrap .main-reply .post-content .t-bottom .icon{ float: left; width: 14px; height: 14px;}
+.quanzhidaoQA-wrap .main-reply .post-content .t-bottom .s1{ width: 100%; margin-left: -14px; padding: 0 10px 0 20px; }
+.quanzhidaoQA-wrap .main-reply .post-content .t-bottom a:hover{ color: #ee8c3c; }
+.quanzhidaoQA-wrap .main-reply .post-content .t-bottom a:hover .icon-pinglun{ background-position: -287px 0px; }
+
+.quanzhidaoQA-wrap .main-reply .post-content .er-reply-box{ width: 100%; margin-top: 10px; display: none; }
+.quanzhidaoQA-wrap .main-reply .post-content .er-reply-box .er-reply-input{ width: 100%; height: 52px; padding: 8px 10px; border: solid 1px #eee; resize: none; }
+.quanzhidaoQA-wrap .main-reply .post-content .er-reply-box .btn-box{ text-align: right; padding: 10px 0 0; }
+.quanzhidaoQA-wrap .main-reply .post-content .er-reply-box .btn-box .btn{ height: 26px; line-height: 24px; padding: 0 20px; font-size: 12px; }
+
+
+
+
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content{}
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content{ width: 100%; ;padding: 15px 15px 15px 0px; border-top: solid 1px #f0f0f0; margin-top: 20px; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .p1{ overflow: hidden; margin: 0px 0px 9px; color: #777; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .p1 .s1{ display: block; float: left; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .p1 .s2{ float: right; padding-top: 3px; text-align: right; font-size: 0px; color: #999; font-family: "宋体",SimSun; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .p1 .s2 a{ color: #999; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .p1 .s2 li{ display: inline-block; margin-left: 45px; font-size: 12px; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .p1 .s2 .icon{ float: left; width: 14px; height: 14px;}
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .p1 .s2 .s1{ width: 100%; margin-left: -14px; padding: 0 0px 0 20px; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .p1 .s2 a:hover{ color: #ee8c3c; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .p1 .s2 a:hover .icon-pinglun{ background-position: -287px 0px; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .p1 .s2 a:hover .icon-delete{ background-position: -345px 0px; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .t-bottom{ overflow: hidden; padding: 10px 0 0; font-size: 12px; color: #999; font-family: "宋体",SimSun; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .t-bottom a{ color: #999; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .t-bottom li{ float: left; margin-right: 45px; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .t-bottom .icon{ float: left; width: 14px; height: 14px;}
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .t-bottom .s1{ width: 100%; margin-left: -14px; padding: 0 10px 0 20px; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .t-bottom a:hover{ color: #ee8c3c; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .t-bottom a:hover .icon-pinglun{ background-position: -287px 0px; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .color{ color: #ee8c3c; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .p2{ font-size: 12px; color: #999; font-family: "宋体",SimSun; overflow: hidden; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .p2 .p2-text{ float: right; width: 100%; height: 100%; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .p2 .p2-text .t-top{ line-height: 24px; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .p2.have-uploadPic{ height: 72px; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .p2.have-uploadPic .p2-pic{ float: left; width: 110px; height: 100%; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .p2.have-uploadPic .p2-pic img{ width: 100%; height: 100%; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .p2.have-uploadPic .p2-text{ width: 690px; }
+.quanzhidaoQA-wrap .main-reply .post-content .reply-content-box .reply-content .p2.have-uploadPic .p2-text .t-top{ margin-top: -5px; }
+
+/*二级回贴*/
+.quanzhidaoQA-wrap .sub-reply{ margin: 15px 0 0; padding-left: 30px; }
+.quanzhidaoQA-wrap .sub-reply .agent{ padding: 15px 15px 15px 0px; border: solid 1px #f0f0f0; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-head{ float: left; width: 50px; margin-left: -25px; overflow: hidden; text-align: center; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-head .pic{ width: 100%; height: 50px; border-radius: 50% }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-head .t1{ display: inline-block; width: 32px; height: 32px; margin-top: 12px; border: solid 1px #f08c2e; background-color: #fff; border-radius: 2px; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-head .t1 .icon{ display: inline-block; width: 9px; height: 6px; margin-top: 4px; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-head .t1 .s1{ display: block; height: 16px; margin-top: 4px; color: #f08c2e; font-size: 12px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: "宋体",SimSun; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-head .t1:hover{ background-color: #f08c2e; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-head .t1:hover .icon{ background-position: -83px 0px; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-head .t1:hover .s1{ color: #fff; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-head .t2{ display: inline-block; width: 32px; height: 14px; margin-top: 4px; border: solid 1px #f0f0f0; background-color: #fff; border-radius: 2px; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-head .t2 .icon{ display: inline-block; width: 9px; height: 6px; margin-top: 3px; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro{ float: right; width: 818px; padding-bottom: 10px; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .p1{ overflow: hidden; margin: 0px 0px 9px; color: #777; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .p1 .s1{ display: block; float: left; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .p1 .s2{ float: right; padding-top: 3px; text-align: right; font-size: 0px; color: #999; font-family: "宋体",SimSun; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .p1 .s2 a{ color: #999; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .p1 .s2 li{ display: inline-block; margin-left: 45px; font-size: 12px; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .p1 .s2 .icon{ float: left; width: 14px; height: 14px;}
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .p1 .s2 .s1{ width: 100%; margin-left: -14px; padding: 0 0px 0 20px; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .p1 .s2 a:hover{ color: #ee8c3c; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .p1 .s2 a:hover .icon-pinglun{ background-position: -287px 0px; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .p1 .s2 a:hover .icon-delete{ background-position: -345px 0px; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .t-bottom{ overflow: hidden; padding: 10px 0 0; font-size: 12px; color: #999; font-family: "宋体",SimSun; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .t-bottom a{ color: #999; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .t-bottom li{ float: left; margin-right: 45px; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .t-bottom .icon{ float: left; width: 14px; height: 14px;}
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .t-bottom .s1{ width: 100%; margin-left: -14px; padding: 0 10px 0 20px; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .t-bottom a:hover{ color: #ee8c3c; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .t-bottom a:hover .icon-pinglun{ background-position: -287px 0px; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .color{ color: #ee8c3c; }
+.quanzhidaoQA-wrap .sub-reply .agent .reply-three-level{ border-top: solid 1px #f0f0f0; padding: 18px 0 0px; margin-top: 18px; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .p2{ font-size: 12px; color: #999; font-family: "宋体",SimSun; overflow: hidden; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .p2 .p2-text{ float: right; width: 100%; height: 100%; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .p2 .p2-text .t-top{ line-height: 24px; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .p2.have-uploadPic{ height: 72px; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .p2.have-uploadPic .p2-pic{ float: left; width: 110px; height: 100%; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .p2.have-uploadPic .p2-pic img{ width: 100%; height: 100%; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .p2.have-uploadPic .p2-text{ width: 690px; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .p2.have-uploadPic .p2-text .t-top{ margin-top: -5px; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .er-reply-box{ width: 100%; margin-top: 10px; display: none; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .er-reply-box .er-reply-input{ width: 100%; height: 52px; padding: 8px 10px; border: solid 1px #eee; resize: none; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .er-reply-box .btn-box{ text-align: right; padding: 10px 0 0; }
+.quanzhidaoQA-wrap .sub-reply .agent .agent-intro .er-reply-box .btn-box .btn{ height: 26px; line-height: 24px; padding: 0 20px; font-size: 12px; }
+/*编辑框*/
+.quanzhidaoQA-wrap .edit-release{ width: 100%; margin-top: 40px; }
+.quanzhidaoQA-wrap .edit-release .edit-header{ color: #777; padding-bottom: 10px; }
+.quanzhidaoQA-wrap .edit-release .btns{ font-size: 0; text-align: right; padding: 15px 0 0; }
+.quanzhidaoQA-wrap .edit-release .btns .btn{ display: inline-block; margin: 0 0 0 14px; width: 90px; height: 30px; line-height: 30px; text-align: center; border: solid 1px #f08b2f; color: #555; font-size: 14px; }
+.quanzhidaoQA-wrap .edit-release .btns .btn-sure{ border: solid 1px #f08b2f; color: #f08b2f; }
+.quanzhidaoQA-wrap .edit-release .btns .btn-sure:hover{background-color: #f08b2f; color: #fff; }
+.quanzhidaoQA-wrap .edit-release .btns .btn-cancel{ border: solid 1px #f0f0f0; color: #555; }
+.quanzhidaoQA-wrap .edit-release .btns .btn-cancel:hover{ background-color: #f5f5f5; border: solid 1px #f5f5f5; color: #555; }
+.quanzhidaoQA-wrap .ke-statusbar{ display: none; }
+.quanzhidaoQA-wrap .ke-container{ border: solid 1px #eee; }
+.quanzhidaoQA-wrap .ke-toolbar{ border-bottom: solid 1px #eee; }
+/* ----- 我要提问弹窗 ----- */
+.popUI.setQuestions .icon-wenhao-1{ width: 100px; height: 110px; position: absolute; top: 0px; left: 0px; z-index: 2; }
+.popUI.setQuestions .popUI-close{ width: 13px; height: 13px; top: 14px; right: 25px; background: url(../images/login-bg.png) 0px -56px no-repeat; }
+.popUI.setQuestions .popUI-header{ padding: 0px; height: 40px; background: none; }
+.popUI.setQuestions .popUI-body{ padding: 0 65px; }
+.popUI.setQuestions .popUI-body .questions-describe .main-title{ text-align: center; font-size: 20px; color: #777; }
+.popUI.setQuestions .popUI-body .questions-describe .sub-title{ text-align: center; font-size: 12px; color: #999; margin-top: 8px; }
+.popUI.setQuestions .popUI-body .questions-describe .sub-title .color{ color: #ee8c3c; }
+.popUI.setQuestions .popUI-body .questions-describe .i-body .input::-webkit-input-placeholder { color: #bebebe; font-size: 12px; font-family: "宋体",SimSun; }
+.popUI.setQuestions .popUI-body .questions-describe .i-body .input:-moz-placeholder { color: #bebebe; font-size: 12px; font-family: "宋体",SimSun; }
+.popUI.setQuestions .popUI-body .questions-describe .i-body .input::-moz-placeholder { color: #bebebe; font-size: 12px; font-family: "宋体",SimSun; }
+.popUI.setQuestions .popUI-body .questions-describe .i-body .input:-ms-input-placeholder { color: #bebebe; font-size: 12px; font-family: "宋体",SimSun; }
+.popUI.setQuestions .popUI-body .questions-describe .item-1{ padding: 20px 0 10px; }
+.popUI.setQuestions .popUI-body .questions-describe .item-1 .i-header{ overflow: hidden; }
+.popUI.setQuestions .popUI-body .questions-describe .item-1 .i-header li{ float: left; margin-right: 25px; }
+.popUI.setQuestions .popUI-body .questions-describe .item-1 .i-header li label{ display: inline-block; line-height: 13px; }
+.popUI.setQuestions .popUI-body .questions-describe .item-1 .i-header li label input{ vertical-align: top; width: 14px; height: 14px; border-radius: 0; margin-right: 5px; }
+.popUI.setQuestions .popUI-body .questions-describe .item-1 .i-body{ overflow: hidden; margin-top: 6px; color: #999; font-size: 12px; font-family: "宋体",SimSun; }
+.popUI.setQuestions .popUI-body .questions-describe .item-1 .i-body .content{ display: none; padding: 8px 0px 8px 10px; overflow: hidden; border: solid 1px #f0f0f0; }
+.popUI.setQuestions .popUI-body .questions-describe .item-1 .i-body .content li{ float: left; width: 110px; margin: 5px 0; cursor: pointer; }
+.popUI.setQuestions .popUI-body .questions-describe .item-1 .i-body .content .active{ color: #ee8c3c; }
+.popUI.setQuestions .popUI-body .questions-describe .item-1 .i-body .content.selected{ display: block; }
+/*问题概述*/
+.popUI.setQuestions .popUI-body .questions-describe .item-gaishu .i-header{ overflow: hidden; color: #777; margin: 10px 0 0; font-size: 14px; font-family: "宋体",SimSun; }
+.popUI.setQuestions .popUI-body .questions-describe .item-gaishu .i-body{ border: solid 1px #f0f0f0; height: 42px; padding: 10px 0; margin-top: 6px; font-size: 12px; font-family: "宋体",SimSun; position: relative; }
+.popUI.setQuestions .popUI-body .questions-describe .item-gaishu .i-body .s{ display: block; position: absolute; top: 13px; color: #999; }
+.popUI.setQuestions .popUI-body .questions-describe .item-gaishu .i-body .s1{ left: 10px; font-weight: bold; }
+.popUI.setQuestions .popUI-body .questions-describe .item-gaishu .i-body .s1 i{ font-weight: bold; }
+.popUI.setQuestions .popUI-body .questions-describe .item-gaishu .i-body .s2{ right: 10px; }
+.popUI.setQuestions .popUI-body .questions-describe .item-gaishu .i-body .input{ width: 100%; height: 100%; line-height: 14px; padding: 0 46px 0 100px; border: 0; }
+/*问题补充*/
+.popUI.setQuestions .popUI-body .questions-describe .item-buchong .i-header{ overflow: hidden; color: #777; margin: 15px 0 0; font-size: 14px; font-family: "宋体",SimSun; }
+.popUI.setQuestions .popUI-body .questions-describe .item-buchong .i-body{ border: solid 1px #f0f0f0; height: 75px; padding: 15px 10px 25px; margin-top: 6px; font-size: 12px; font-family: "宋体",SimSun; position: relative; }
+.popUI.setQuestions .popUI-body .questions-describe .item-buchong .i-body .s1{ display: block; position: absolute; bottom: 8px; right: 10px; color: #999; }
+.popUI.setQuestions .popUI-body .questions-describe .item-buchong .i-body .textarea{ width: 100%; height: 100%; line-height: 14px; border: 0; resize: none; }
+/*关键词*/
+.popUI.setQuestions .popUI-body .questions-describe .item-keyword{ padding-top: 22px; }
+.popUI.setQuestions .popUI-body .questions-describe .item-keyword dl dt{ float: left; width: 60px; color: #777; font-size: 14px; font-family: "宋体",SimSun; }
+.popUI.setQuestions .popUI-body .questions-describe .item-keyword dl dd{ float: left; width: 643px; }
+.popUI.setQuestions .popUI-body .questions-describe .item-keyword dl dd input{ display: block; width: 100%; height: 35px; margin: -10px 0 5px; border: solid 1px #f0f0f0; padding: 0 10px; }
+.popUI.setQuestions .popUI-body .questions-describe .item-keyword dl dd span{ display: block; font-size: 12px; color: #999; }
+/*验证码*/
+.popUI.setQuestions .popUI-body .questions-describe .yzm-box .tips{ padding-top: 17px; }
+.popUI.setQuestions .popUI-body .questions-describe .yzm-box .tips .success{ float: right; height: 28px; line-height: 28px; text-align: center; }
+.popUI.setQuestions .popUI-body .questions-describe .yzm-box .tips .success .s1{ display: block; float: left; width: 170px; background-color: #5cc913; color: #fff; font-size: 12px; font-family: "宋体",SimSun; }
+.popUI.setQuestions .popUI-body .questions-describe .yzm-box .tips .success .s2{ float: left; width: 38px; height: 100%; border: solid 1px #d8d8d8; }
+.popUI.setQuestions .popUI-body .questions-describe .yzm-box .tips .success .s2 .icon{ width: 12px; height: 9px; margin: 8px 0 0 13px; }
+.popUI.setQuestions .popUI-body .questions-describe .yzm-box .tips .yzm-box{ float: right; margin-left: 36px; }
+.popUI.setQuestions .popUI-body .questions-describe .yzm-box .tips .yzm-box img{ margin-top: -2px; }
+/*按钮*/
+.popUI.setQuestions .popUI-body .questions-describe .btns{ font-size: 0; padding-top: 20px; text-align: right; }
+.popUI.setQuestions .popUI-body .questions-describe .btns .btn{ display: inline-block; width: 85px; height: 35px; line-height: 35px; text-align: center; border: solid 1px #f08b2f; color: #555; font-size: 14px; }
+.popUI.setQuestions .popUI-body .questions-describe .btns .btn-sure{ border: solid 1px #f08b2f; color: #f08b2f; }
+.popUI.setQuestions .popUI-body .questions-describe .btns .btn-sure:hover{background-color: #f08b2f; color: #fff; }
+/* ----- 提问成功 ----- */
+.popUI.setQuestions .popUI-body .questions-success{ display: none; padding: 20px 45px 0 75px; }
+.popUI.setQuestions .popUI-body .questions-success .item-1{ text-align: center; }
+.popUI.setQuestions .popUI-body .questions-success .item-1 .icon{ display: inline-block; width: 54px; height: 54px; }
+.popUI.setQuestions .popUI-body .questions-success .item-1 .s1{ display: block; font-size: 20px; color: #f08c2f; margin-top: 8px; }
+.popUI.setQuestions .popUI-body .questions-success .item-1 .s2{ display: block; font-size: 16px; color: #777; margin: 8px 0 15px; }
+.popUI.setQuestions .popUI-body .questions-success .item-1 .btn{ display: inline-block; width: 92px; height: 28px; line-height: 28px; background-color: #f08b2f; color: #fff; font-size: 12px; font-family: "宋体",SimSun; }
+.popUI.setQuestions .popUI-body .questions-success .item-2{ margin-top: 42px; }
+.popUI.setQuestions .popUI-body .questions-success .item-2 .i-header .icon-hlep{ float: left; width: 26px; height: 25px; margin: 0 3px 0 -30px; }
+.popUI.setQuestions .popUI-body .questions-success .item-2 .i-header .s1{ display: block; float: left; margin: 4px 0px 0px; font-size: 16px; color: #555; }
+.popUI.setQuestions .popUI-body .questions-success .item-2 .i-body .list{ margin-top: 12px;}
+.popUI.setQuestions .popUI-body .questions-success .item-2 .i-body .list h6{ font-size: 14px; color: #555; margin-bottom: 4px; }
+.popUI.setQuestions .popUI-body .questions-success .item-2 .i-body .list p{ font-size: 12px; color: #999; line-height: 22px; font-family: "宋体",SimSun; }
+.popUI.setQuestions .popUI-body .questions-success .item-2 .i-body .see-more{ text-align: left; padding-top: 16px; }
+.popUI.setQuestions .popUI-body .questions-success .item-2 .i-body .see-more a{ font-size: 12px; color: #f08c2e; text-decoration: underline; }
+/* ---------- end 权知道 ---------- */

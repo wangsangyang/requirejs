@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>审核</title>
+    <link rel="stylesheet" type="text/css" href="../../css/icon.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/adminManage.css" />
+    <script type="text/javascript" src="../../js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../../js/adminManage.js"></script>
+    <style type="text/css">
+         body{ min-width: inherit; height: auto; }
+    </style>
+</head>
+
+<body>
+
+<div class="page-duibi clearfix">
+    <div class="slide-container slide-container-left">
+        <div class="cont">
+            <ul class="slide-wrapper">
+                <li class="slide active">
+                    <span><img class="img" src="../../images/ex-file.jpg"></span>
+                    <i>营业执照</i>
+                </li>
+                <li class="slide">
+                    <span><img class="img" src="../../images/ex-voice.jpg"></span>
+                    <i>委托书</i>
+                </li>
+                <li class="slide">
+                    <span><img class="img" src="../../images/ex-sfz-1.jpg"></span>
+                    <i>身份证</i>
+                </li>
+                <li class="slide">
+                    <span><img class="img" src="../../images/ex-1.jpg"></span>
+                    <i>商标图样</i>
+                </li>
+            </ul>
+            <span class="slide-button slide-button-prev"></span>
+            <span class="slide-button slide-button-next"></span>
+        </div>
+        <div class="big-img"><img src="../../images/ex-file.jpg" alt=""></div>
+    </div>
+    <div class="slide-container slide-container-right">
+        <div class="cont">
+            <ul class="slide-wrapper">
+                <li class="slide">
+                    <span><img class="img" src="../../images/ex-file.jpg"></span>
+                    <i>营业执照</i>
+                </li>
+                <li class="slide">
+                    <span><img class="img" src="../../images/ex-voice.jpg"></span>
+                    <i>委托书</i>
+                </li>
+                <li class="slide">
+                    <span><img class="img" src="../../images/ex-sfz-1.jpg"></span>
+                    <i>身份证</i>
+                </li>
+                <li class="slide">
+                    <span><img class="img" src="../../images/ex-1.jpg"></span>
+                    <i>商标图样</i>
+                </li>
+            </ul>
+            <span class="slide-button slide-button-prev"></span>
+            <span class="slide-button slide-button-next"></span>
+        </div>
+        <div class="big-img"><img src="../../images/ex-file.jpg" alt=""></div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+;(function($){
+    var defaults = {};
+    $.fn.module_slide = function(options){
+        var options = $.extend(true, defaults, options);
+        return this.each(function(){
+            var $container = $(this);
+            var $slide = $container.find('.slide');
+            var slide_number =  $slide.length;
+            var slide_height = $slide.height();
+            var i = 0;
+            $container.find('.slide-button-prev').on('click', function(){
+                i = i<=0?i:--i;
+                $container.find('.slide-wrapper').animate({top:-slide_height*i});
+            });
+            $container.find('.slide-button-next').on('click', function(){
+                i = i>slide_number-3?i:++i;
+                $container.find('.slide-wrapper').animate({top:-slide_height*i});
+            });
+            $container.find('.slide').on('click', function(){
+                var $this = $(this);
+                var img_url =  $this.find('img').attr('src');
+                $this.addClass('active').siblings().removeClass('active');
+                $container.find('.big-img img').attr('src',img_url);
+            });
+        });
+    };
+})(jQuery);
+
+$(function(){
+    $('.slide-container').module_slide();
+});
+</script>
+
+</body>
+</html>

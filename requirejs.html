@@ -1,0 +1,166 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>requirejs练习</title>
+
+</head>
+
+<body>
+<!-- start 个人中心 -->
+<div class="adminManage-wrap">
+    <div class="adminManage">
+
+        <!-- start 固定的顶部 -->
+        <div class="adminManage-topBox">
+            <div class="topBox-nav">
+                <ul class="topBox-nav-right">
+                    <!-- Single button -->
+                    <div class="btn-group">
+                        <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="glyphicon glyphicon-user"></i><span class="text">18511112222</span><i class="caret"></i>
+                        </div>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="#"><i class="glyphicon glyphicon-user"></i>个人中心</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#"><i class="glyphicon glyphicon-home"></i>返回首页</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="../login/login.html"><i class="glyphicon glyphicon-log-out"></i>安全退出</a></li>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <!-- end 固定的顶部 -->
+
+        <!-- start 左侧导航主导航 -->
+        <div class="adminManage-leftBox">
+            <left-nav id="leftnav"></left-nav>
+        </div>
+        <!-- end 左侧导航主导航 -->
+
+        <!-- start 右侧主内容 -->
+        <div class="adminManage-rightBox">
+        <div class="main-content">
+
+            <div class="radius-panel panel-infofile disabled-input">
+                <!-- start 商标信息 -->
+                <div class="info1">
+                    <h1 class="title">商标信息</h1>
+                    <table>
+                        <tr>
+                            <td>商标名称：NIKE</td>
+                        </tr>
+                            <td><input type="text" class="input" onclick="WdatePicker({dateFmt:'yyyy-MM-dd',skin:'twoer',isShowClear:false,doubleCalendar:true})"></td>
+                        </tr>
+                    </table>
+                </div><!-- end 商标信息 -->
+
+                <div class="scroll-pane">
+                    <p>自从4月8日以来，再未探测到新的电子信号，这可能意味着为黑匣子记录仪定位探测器提供电能的电池，可能已经耗尽。这些电池仅能维持大约一个月，而这个期限已过。当官员们确定不会再听到任何声音时，将派出潜水机器人。澳大利亚总理阿博特12日说，针对马来西亚航空公司MH370航班的搜寻可能将持续相当长一段时间，原因是客机“黑匣子”发出的脉冲信号正在迅速减弱。</p>
+                    <p>联合协调中心总协调人休斯敦当天宣布，决定暂停澳大利亚海军“海洋之盾”号补给舰使用拖曳声波定位仪的搜寻作业，转而使用“蓝鳍金枪鱼-21”自主式水下航行器。“我们已经6天没有任何发现，所以我猜是时候进行水下作业了，”休斯敦说。王健表示，为方便马航失联乘客家属的心理救助，回龙观医院在3月份设立马航失联乘客家属心理门诊，为家属开辟绿色通道。王健建议，为家属尽快进入到情绪康复期</p>
+                    <p>从搜索技术上来说，在法航事件中，使用了当时先进的多波束回声探测仪进行海底测绘，用拖曳声波定位仪定位黑匣子，同时使用了Remus无人潜水机和ROV水下机器人进行探测和打捞。同样在本次马航事件中，也使用到了上述的仪器，基本上是对法航事故搜寻技术的延续。　但是，在各国合作上，马航成为了联合搜救的典范。失事飞机的搜寻需要多国和各个政府部门和机构的协作。马航吸取了法航的经验，先后有发动机制造商、飞机制造商等多个专业公司参与救援。此外，马航事件中不仅有中美澳等国参与救援，英国、法国、韩国等“外围”国家也提供了技术和力量支持。中美等国的紧急调动的多颗卫星也起到了很大的作用。</p>
+                </div>
+
+            </div>
+
+                <div class="mybtns">
+                    <button type="button" class="btn btn-danger" onclick="shenheFailed()">审核不通过</button>
+                    <button type="button" class="btn btn-default">审核通过</button>
+                </div>
+
+
+        </div>
+        </div><!-- end 右侧主内容 -->
+
+
+
+</div>
+</div>
+<!-- end 个人中心 -->
+
+<style>
+    .scroll-pane{ width: 300px; height: 400px; overflow: auto; border: solid 2px #f08b2f; }
+    .scroll-pane p{ margin: 20px; text-indent: 2em; }
+</style>
+
+
+<!-- start 审核不通过弹窗 -->
+<div id="shenhefailed-modal" style="display: none;">
+    <table>
+        <tr>
+            <td>原因：</td>
+            <td>
+                <div class="labels">
+                    <label class="lab"><input type="checkbox" checked>商标信息</label>
+                    <label class="lab"><input type="checkbox">营业执照</label>
+                    <label class="lab"><input type="checkbox">委托书</label>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div><!-- end 审核不通过弹窗 -->
+
+
+<!--<link rel="stylesheet" type="text/css" href="bootstrap-3.3.5/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="bootstrap-3.3.5/css/bootstrap-theme.min.css" />
+<link rel="stylesheet" type="text/css" href="css/adminManage.css" />-->
+
+
+<!--<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/adminManage.js"></script>
+<link rel="stylesheet" type="text/css" href="js/My97DatePicker/skin/WdatePicker.css" />
+<script type="text/javascript" src="js/My97DatePicker/WdatePicker.js"></script>
+
+<script src="js/html5.js"></script>
+<script type="text/javascript" src="js/respond.min.js"></script>
+
+<script type="text/javascript" src="js/layer/layer.js"></script>
+
+<script type="text/javascript" src="adminManage/vue.js"></script>
+<script type="text/javascript" src="adminManage/vue.component.js"></script>-->
+
+
+<!--
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/layer/layer.js"></script>
+-->
+
+<script type="text/javascript" data-main="js/require.entry.js" src="js/require.min.js"></script>
+<script type="text/javascript" id="requireconfig" jscrollpane="true"></script>
+
+<script type="text/javascript">
+    function editBrandInfo(that){
+        $('#myModal').modal('show');
+    }
+
+    //审核不通过原因
+    function shenheFailed(){
+        layer.open({
+            type: 1,
+            title: '审核不通过',
+            area: ['610px', '300px'],
+            content: $('#shenhefailed-modal')
+        });
+    }
+</script>
+
+
+<!--
+<link type="text/css" href="js/jquery-jscrollpane/style/jquery.jscrollpane.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery-jscrollpane/js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/jquery-jscrollpane/js/jquery.jscrollpane.min.js"></script>
+-->
+
+<script type="text/javascript" src="js/require.config.js"></script>
+
+<script type="text/javascript">
+    requireconfig.init({
+        bootstrap:true,
+    });
+</script>
+
+</body>
+</html>

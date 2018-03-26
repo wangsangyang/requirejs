@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>myconfirm</title>
+    <link rel="stylesheet" type="text/css" href="../css/jquery.confirm-1.0.css" />
+    <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.confirm-1.0.js"></script>
+</head>
+
+<body>
+
+<button onclick="myconfirm()">弹窗confirm</button>
+<button onclick="myalert()">弹窗alert</button>
+<button onclick="buyBrand()">模态弹窗</button>
+<button onclick="loading()">loading加载中弹窗</button>
+
+
+<!-- start 购买商标—弹窗 -->
+<div class="myModal buyBrandModal" id="buyBrandModal">
+    <i class="opacity-bg"></i>
+    <div class="container">
+        <i class="close">×</i>
+        <div class="header"><span class="title">您确定购买此商标吗？</span></div>
+        <div class="bodyer">
+            <table class="tableNoborder">
+                <tr>
+                    <td class="td-title">真实姓名：</td>
+                    <td><input type="text" class="myInput"></td>
+                </tr>
+                <tr class="footer">
+                    <td colspan="2" align="center">
+                        <div class="btns">
+                            <a class="btn mybtn-inverse btn-sure">确定</a>
+                            <a class="btn mybtn-inverse btn-cancel">取消</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div><!-- end 追加类别——弹窗 -->
+
+
+<script>
+    function myconfirm(){
+        $.confirm({
+            //opacity:true,
+            content: '您确定要删除绑定的银行卡吗！<br/>删除以后须重新提交资料经过审核才能生效！',
+            okFun: function(){
+                //window.location.reload();
+            }
+        });
+    }
+
+    function myalert(){
+        $.alert({
+            //opacity:true,
+            content: '恭喜您申请成为代理人，我们会尽快审核您的资料，请耐心等候！',
+            okFun: function(){
+                window.location.reload();
+            }
+        });
+    }
+
+    /* 购买商标 */
+    function buyBrand(that){
+        var $this = $(this);
+        $('#buyBrandModal').myModal({
+            //top: '40%',
+            selfClose:false,
+            okFun: function(){
+                alert('购买成功成功！');
+                $('#buyBrandModal').myModalClose();
+            }
+        });
+    }
+
+    function loading(){
+        $.loadingCreate({
+            text:'数据加载中...'
+        });
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,480 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>详情</title>
+    <link rel="stylesheet" type="text/css" href="../../bootstrap-3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../bootstrap-3.3.5/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/icon.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/adminManage.css" />
+    <script type="text/javascript" src="../../js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../../bootstrap-3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../js/adminManage.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../js/My97DatePicker/skin/WdatePicker.css" />
+    <script type="text/javascript" src="../../js/My97DatePicker/WdatePicker.js"></script>
+    <!-- 让IE6-8也支持HTML5属性、响应式媒体查询 -->
+    <!--[if lt IE 9]>
+    <script src="../../js/html5.js"></script>
+    <script type="text/javascript" src="../../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<!-- start 个人中心 -->
+<div class="adminManage-wrap">
+    <div class="adminManage">
+
+        <!-- start 固定的顶部 -->
+        <div class="adminManage-topBox">
+            <div class="topBox-nav">
+                <h1 class="topBox-nav-title">权大师超级后台</h1>
+                <ul class="topBox-nav-right">
+                    <!-- Single button -->
+                    <div class="btn-group">
+                        <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="glyphicon glyphicon-user"></i><span class="text">18511112222</span><i class="caret"></i>
+                        </div>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="#"><i class="glyphicon glyphicon-user"></i>个人中心</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#"><i class="glyphicon glyphicon-home"></i>返回首页</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="../login/login.html"><i class="glyphicon glyphicon-log-out"></i>安全退出</a></li>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <!-- end 固定的顶部 -->
+
+        <!-- start 左侧导航主导航 -->
+        <div class="adminManage-leftBox">
+            <h1 class="logo"><a href="../main.html"><img src="../../images/logo.png" alt="权大师logo" title="权大师logo" /></a></h1>
+            <left-nav id="leftnav"></left-nav>
+        </div>
+        <!-- end 左侧导航主导航 -->
+
+        <!-- start 右侧主内容 -->
+        <div class="adminManage-rightBox">
+        <div class="main-content">
+
+            <!-- start 面包屑导航 -->
+            <div class="radius-panel">
+                <!-- start 面包屑导航 -->
+                <div class="site">
+                    <ul class="clearfix">
+                        <li class="list title">当前位置：</li>
+                        <li class="list"><a class="text" href="#">商标审核</a></li>
+                    </ul>
+                </div><!-- end 面包屑导航 -->
+            </div><!-- end 面包屑导航 -->
+
+            <!-- start 订单编号 -->
+            <div class="radius-panel">
+                <table class="shenhe-title">
+                    <tr>
+                        <td>订单编号：Z70410616250 - 担保无忧注</td>
+                        <td>订单状态：审核不通过</td>
+                        <td>代理人：刘朝-13812345678</td>
+                        <td>客户姓名：张三-16712345678</td>
+                    </tr>
+                </table>
+            </div><!-- end 订单编号 -->
+
+            <!-- start 审核不通过原因 -->
+            <div class="radius-panel panel-failed disabled-input">
+                <h1 class="title">审核不通过原因</h1>
+                <table>
+                    <tr>
+                        <td>原因：</td>
+                        <td>
+                            <div class="labels">
+                                <label class="lab"><input type="checkbox" checked>商标信息</label>
+                                <label class="lab"><input type="checkbox">营业执照</label>
+                                <label class="lab"><input type="checkbox">委托书</label>
+                                <label class="lab"><input type="checkbox" checked>申请人信息</label>
+                                <label class="lab"><input type="checkbox">其他</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>说明：</td>
+                        <td><textarea class="textarea" placeholder="审核未通过的说明文字">申请人的手机号未填写</textarea></td>
+                    </tr>
+                </table>
+            </div><!-- end 审核不通过原因 -->
+
+
+            <div class="radius-panel panel-infofile disabled-input">
+                <!-- start 商标信息 -->
+                <div class="info1">
+                    <h1 class="title">商标信息</h1>
+                    <table>
+                        <tr>
+                            <td>商标名称：NIKE</td>
+                            <td>订单备注：</td>
+                            <td>商标说明：</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul class="showPhotos">
+                                    <li class="list-photo">
+                                        <div class="list-photo-top">
+                                            <div class="photo-box">
+                                                <img class="photo" src="../../images/ex-file.jpg" title="委托书">
+                                                <div class="shadow-box">
+                                                    <em class="shadow"></em>
+                                                    <div class="shadow-btn">
+                                                        <a href="../../images/ex-file.jpg" target="_blank">查看大图</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-photo-bottom">商标图样</div>
+                                    </li>
+                                    <li class="list-photo">
+                                        <div class="list-photo-top">
+                                            <div class="photo-box">
+                                                <img class="photo" src="../../images/ex-file.jpg" title="下载">
+                                            </div>
+                                        </div>
+                                        <div class="list-photo-bottom">黑白图样</div>
+                                    </li>
+                                </ul>
+                            </td>
+                            <td><textarea class="textarea" placeholder="订单备注的信息文字"></textarea></td>
+                            <td><textarea class="textarea" placeholder="商标说明的信息文字"></textarea></td>
+                        </tr>
+                    </table>
+                </div><!-- end 商标信息 -->
+
+                <!-- start 交官材料 -->
+                <div class="info2">
+                    <h1 class="title">交官材料</h1>
+                    <a class="zhuyi" onclick="zhuyi()"><i class="icon-warning"></i>查看上传文件注意事项</a>
+                    <ul class="showPhotos">
+                        <li class="list-photo">
+                            <div class="list-photo-top">
+                                <div class="photo-box">
+                                    <img class="photo" src="../../images/ex-file.jpg" title="营业执照">
+                                </div>
+                            </div>
+                            <div class="list-photo-bottom">营业执照</div>
+                        </li>
+                        <li class="list-photo">
+                            <div class="list-photo-top">
+                                <div class="photo-box">
+                                    <img class="photo" src="../../images/ex-file.jpg" title="委托书">
+                                </div>
+                            </div>
+                            <div class="list-photo-bottom">委托书</div>
+                        </li>
+                        <li class="list-photo">
+                            <div class="list-photo-top">
+                                <div class="photo-box">
+                                    <img class="photo" src="../../images/ex-file.jpg" title="身份证">
+                                </div>
+                            </div>
+                            <div class="list-photo-bottom">身份证</div>
+                        </li>
+                        <li class="list-photo">
+                            <div class="list-photo-top">
+                                <div class="photo-box">
+                                    <img class="photo" src="../../images/ex-file.jpg" title="商标图样">
+                                </div>
+                            </div>
+                            <div class="list-photo-bottom">商标图样</div>
+                        </li>
+                        <li class="list-photo">
+                            <div class="list-photo-top">
+                                <div class="photo-box">
+                                    <img class="photo" src="../../images/ex-file.jpg" title="黑白图样">
+                                </div>
+                            </div>
+                            <div class="list-photo-bottom">黑白图样</div>
+                        </li>
+                        <li class="list-photo">
+                            <div class="list-photo-top">
+                                <div class="photo-box">
+                                    <img class="photo" src="../../images/ex-file.jpg" title="优先权证明">
+                                </div>
+                            </div>
+                            <div class="list-photo-bottom">优先权证明</div>
+                        </li>
+                        <li class="list-photo">
+                            <div class="list-photo-top">
+                                <div class="photo-box">
+                                    <img class="photo upload-bg" src="../../images/newimg/upload-bg.png" title="有关说明文件">
+                                </div>
+                            </div>
+                            <div class="list-photo-bottom">有关说明文件</div>
+                        </li>
+                        <li class="list-photo">
+                            <div class="list-photo-top">
+                                <div class="photo-box">
+                                    <img class="photo" src="../../images/ex-file.jpg" title="公证文件">
+                                    <div class="shadow-box">
+                                        <em class="shadow"></em>
+                                        <div class="shadow-btn">
+                                            <a href="../../images/ex-file.jpg" target="_blank">查看大图</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-photo-bottom">公证文件</div>
+                        </li>
+                    </ul>
+                </div><!-- end 交官材料 -->
+            </div>
+
+            <div class="radius-panel panel-infoperson disabled-input" id="base-edit">
+                <!-- start 申请人信息 -->
+                <div class="info1">
+                    <h1 class="title">申请人信息</h1>
+                    <table class="table-search">
+                        <tbody>
+                            <tr>
+                                <td class="td-title">申请人名称：</td>
+                                <td class="td-content" style="padding-right: 30px;"><input type="text" class="input"></td>
+                                <td class="td-title">申请人类型：</td>
+                                <td class="td-content">
+                                    <select class="input">
+                                        <option value="1">法人或其他组织</option>
+                                        <option value="2">大</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td-title">书式类型：</td>
+                                <td class="td-content">
+                                    <select class="input">
+                                        <option value="1">中国大陆</option>
+                                    </select>
+                                </td>
+                                <td class="td-title">申请人行政区划：</td>
+                                <td class="td-content">
+                                    <select class="input">
+                                        <option value="1">北京市</option>
+                                    </select>
+                                    <select class="input">
+                                        <option value="1">朝阳市</option>
+                                    </select>
+                                    <select class="input">
+                                        <option value="1">--</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td-title">邮政编码：</td>
+                                <td class="td-content"><input type="text" class="input" value="1232"></td>
+                                <td class="td-title">申请人地址：</td>
+                                <td class="td-content"><input type="text" class="input" style="width: 488px;" value="北京市朝阳区广顺北大街融创动力文化产业园B座A108"></td>
+                            </tr>
+                            <tr>
+                                <td class="td-title">联系人：</td>
+                                <td class="td-content"><input type="text" class="input" value="支鑫"></td>
+                                <td class="td-title">联系电话：</td>
+                                <td class="td-content"><input type="text" class="input" value="132546874132"></td>
+                            </tr>
+                            <tr>
+                                <td class="td-title">联系邮箱：</td>
+                                <td class="td-content"><input type="text" class="input" value="546546546@qq.com"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div><!-- end 申请人信息 -->
+
+                <!-- start 代理人信息 -->
+                <div class="info1">
+                    <h1 class="title">代理人信息</h1>
+                    <table class="table-search">
+                        <tbody>
+                            <tr>
+                                <td class="td-title">代理文号：</td>
+                                <td class="td-content">132554564</td>
+                            </tr>
+                            <tr>
+                                <td class="td-title">代理机构名称：</td>
+                                <td class="td-content" style="padding-right: 30px;"><input type="text" class="input" value="北京梦知网科技有限公司"></td>
+                                <td class="td-title">代理人姓名：</td>
+                                <td class="td-content" style="padding-right: 30px;"><input type="text" class="input" value="支鑫"></td>
+                                <td class="td-title">代理人电话：</td>
+                                <td class="td-content"><input type="text" class="input" value="136574984"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div><!-- end 代理人信息 -->
+
+                <!-- start 其他信息 -->
+                <div class="info1">
+                    <h1 class="title">其他信息</h1>
+                    <table class="table-search">
+                        <tbody>
+                            <tr>
+                                <td class="td-title">是否集体/证明商标：</td>
+                                <td class="td-content" style="padding-right: 50px;">
+                                    <div class="labels">
+                                        <label class="lab"><input type="radio">否</label>
+                                        <label class="lab"><input type="radio">集体</label>
+                                        <label class="lab"><input type="radio">证明</label>
+                                    </div>
+                                </td>
+                                <td class="td-title">是否三维标志：</td>
+                                <td class="td-content">
+                                    <div class="labels">
+                                        <label class="lab"><input type="radio">否</label>
+                                        <label class="lab"><input type="radio">是</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td-title">是否颜色组合：</td>
+                                <td class="td-content">
+                                    <div class="labels">
+                                        <label class="lab"><input type="radio">否</label>
+                                        <label class="lab"><input type="radio">是</label>
+                                    </div>
+                                </td>
+                                <td class="td-title">声音商标：</td>
+                                <td class="td-content">
+                                    <div class="labels">
+                                        <label class="lab"><input type="checkbox">声音</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td-title">是否共同申请：</td>
+                                <td class="td-content">
+                                    <div class="labels">
+                                        <label class="lab"><input type="radio">否</label>
+                                        <label class="lab"><input type="radio">是</label>
+                                    </div>
+                                </td>
+                                <td class="td-title">优先权证明：</td>
+                                <td class="td-content">
+                                    <div class="labels">
+                                        <label class="lab"><input type="radio">否</label>
+                                        <label class="lab"><input type="radio">在线优先权</label>
+                                        <label class="lab"><input type="radio">展会优先权</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td-title">商标类别：</td>
+                                <td class="td-content" colspan="3">
+                                    <div class="brand-item">
+                                        <ul class="i-header clearfix">
+                                            <li class="list">37 建筑修理</li>
+                                            <li class="list">子单编号：123456789-1</li>
+                                            <li class="list">申请号：123456789</li>
+                                            <i class="icon-arrow-down"></i>
+                                        </ul>
+                                        <div class="i-bodyer"></div>
+                                    </div>
+                                    <div class="brand-item">
+                                        <ul class="i-header clearfix">
+                                            <li class="list">37 建筑修理</li>
+                                            <li class="list">子单编号：123456789-1</li>
+                                            <li class="list">申请号：123456789</li>
+                                            <i class="icon-arrow-down active"></i>
+                                        </ul>
+                                        <div class="i-bodyer">
+                                            <ul class="item clearfix">
+                                                <li class="list">3705 供暖设备的安装与修理 3706</li>
+                                                <li class="list">3705 供暖设备的安装与修理 3706</li>
+                                                <li class="list">3705 供暖设备的安装与修理 3706</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div><!-- end 其他信息 -->
+
+            </div>
+
+            <!-- start 操作记录 -->
+            <div class="radius-panel panel-record">
+                <h1 class="title">操作记录</h1>
+                <table width="100%" class="dataTable">
+                    <thead>
+                        <tr>
+                            <td>时间</td>
+                            <td>子单编号</td>
+                            <td>操作记录</td>
+                            <td>操作人</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2017-05-12</td>
+                            <td>TM1605238937-1</td>
+                            <td>重新上传交官文件</td>
+                            <td>支鑫</td>
+                        </tr>
+                        <tr>
+                            <td>2017-05-12</td>
+                            <td>TM1605238937-1</td>
+                            <td>添加回执编号</td>
+                            <td>支鑫</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div><!-- end 操作记录 -->
+
+        </div>
+        </div><!-- end 右侧主内容 -->
+
+</div>
+</div>
+<!-- end 个人中心 -->
+
+<!-- start 上传文件注意事项弹窗 -->
+<div id="zhuyi-modal" style="display: none;">
+    <table class="table-search">
+        <tbody>
+            <tr>
+                <td class="td-title" width="100px">委托书：</td>
+                <td class="td-content">请上传由申请人盖章或签字的中文代理委托书彩色扫描件，格式为<i class="color">jpg</i>，宽高的大下为<i class="color">4000px~600px</i>，<i class="color">300dpi</i>分辨率，大小不能超过<i class="color">2M</i>，若为多页，可按页上传</td>
+            </tr>
+            <tr>
+                <td class="td-title">营业执照：</td>
+                <td class="td-content">格式为<i class="color">PDF</i>，大小不能超过<i class="color">2M</i></td>
+            </tr>
+            <tr>
+                <td class="td-title">有关说明：</td>
+                <td class="td-content">单个说明的上传大小限制在<i class="color">2M</i>以内并且是<i class="color">PDF</i>格式（如果上传文件为商标使用管理规则和集体成员名单大小限制在<i class="color">50M</i>以内）</td>
+            </tr>
+            <tr>
+                <td class="td-title">公证文件：</td>
+                <td class="td-content">（图样文件格式应为jpg，图形应清晰，图样文件大小应小于“<i class="color">200KB</i>”，且图形像素介于“<i class="color">400X400</i> - <i class="color">1500X1500</i>”之间，如果通过扫描获得图样的，应按<i class="color">24</i>位彩色，<i class="color">300dpi</i>分辨率扫描符合《商标法》及其实施条例规定的图形（图形清晰，大于<i class="color">5X5</i>厘米且小于<i class="color">10X10</i>厘米），申请人（或代理人）应确保扫描后的图形与原图形的色彩深浅（或灰度）一致，否则，可能影响《商标注册证》上图形的清晰度）<i class="color">以颜色组合或者着色图样申请商标注册的，应分别上传着色图样及黑白稿，黑白稿在“黑白稿”中上传，不指定颜色的，只上传黑白图样即可</i></td>
+            </tr>
+        </tbody>
+    </table>
+</div><!-- end 上传文件注意事项弹窗 -->
+
+<script type="text/javascript" src="../../js/layer/layer.js"></script>
+
+<script type="text/javascript">
+    //上传文件注意事项-弹窗
+    function zhuyi(){
+        layer.open({
+            type: 1,
+            title: '上传文件注意事项',
+            area: ['650px', '320px'],
+            content: $('#zhuyi-modal')
+        });
+    }
+
+    $('.disabled-input .input,.disabled-input input,.disabled-input textarea').prop('disabled',true);
+</script>
+
+<!-- start 正式开发去掉这2个js文件 -->
+<script type="text/javascript" src="../vue.js"></script>
+<script type="text/javascript" src="../vue.component.js"></script>
+<!-- end 正式开发去掉这2个js文件 -->
+
+</body>
+</html>

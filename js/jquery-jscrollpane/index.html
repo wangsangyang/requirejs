@@ -1,0 +1,225 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>jquery滚动条美化插件</title>
+		
+		<!-- styles specific to demo site -->
+		<link type="text/css" href="style/demo.css" rel="stylesheet" media="all" />
+		<!-- styles needed by jScrollPane - include in your own sites -->
+		<link type="text/css" href="style/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+		<!-- the styles for the lozenge theme -->
+		<link type="text/css" href="style/jquery.jscrollpane.lozenge.css" rel="stylesheet" media="all" />
+
+		<style type="text/css" id="page-css">
+			/* Styles specific to this particular page */
+			.scroll-pane, .scroll-pane-arrows {
+				width: 100%;
+				height: 200px;
+				overflow: auto;
+			}
+			.horizontal-only {
+				height: auto;
+				max-height: 200px;
+			}
+		</style>
+
+        <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+
+		<script type="text/javascript" id="sourcecode">
+			$(function() {
+			$('.scroll-pane').jScrollPane();
+			$('.scroll-pane-arrows').jScrollPane({
+			showArrows:true,horizontalGutter:10
+			});
+			});
+		</script>
+	</head>
+	<body>
+
+		<div id="container">
+
+			<h2><font size="20">修改滑动杆的样式</font></h2>
+
+			<h2>使用方法</h2>
+			<pre >
+
+$('.scroll-pane').jScrollPane(
+	showArrows - boolean (default false)//显示滑杆两边的箭头
+
+	maintainPosition - boolean (default true)//保持原位置
+
+	stickToBottom- boolean (default false)//滑到底部
+
+	stickToRight- boolean (default false)//湖大道最右边
+
+	autoReinitialise - boolean (default false)//自动加载出现滑杆
+
+	autoReinitialiseDelay - int (default 500)//自动加载的时间延迟
+
+	verticalDragMinHeight - int (default 0)//垂直拖拽的最小高度
+
+	verticalDragMaxHeight - int (default 99999)//处置拖拽的最大高度
+
+	horizontalDragMinWidth - int (default 0)//水平拖拽的长度
+
+	horizontalDragMaxWidth - int (default 99999)//水平拖拽的最大长度
+
+	contentWidth - int (default undefined)//内幕内用的宽度
+
+	animateScroll - boolean (default false)//滚动动画
+
+	animateDuration - int (default 300)//动画延迟
+
+	animateEase - string (default 'linear')//动画轨迹
+
+	hijackInternalLinks - boolean (default false)//截获内部链接
+
+	verticalGutter - int (default 4)//处置不掉长度
+
+	horizontalGutter - int (default 4)//水平不掉长度
+
+	mouseWheelSpeed - int (default 10)//鼠标疼速度
+
+	arrowButtonSpeed - int (default 10)//方向键按钮的速度
+
+	arrowRepeatFreq - int (default 100)//按钮事件重复频率
+
+	arrowScrollOnHover - boolean (default false)//接手鼠标在方向键上滑过的动作
+
+	verticalArrowPositions - string [split|before|after|os] (default split)//垂直方向上按钮的位置
+
+	horizontalArrowPositions - string [split|before|after|os] (default split)//水平方向上按钮的位置
+
+	enableKeyboardNavigation - boolean (default true)//是否接受键盘操作
+
+	hideFocus - boolean (default false)//隐藏焦点
+
+	clickOnTrack - boolean (default true)//路径上点击操作
+
+	trackClickSpeed - int (default 30)//互动轨迹上的点击速度
+
+	trackClickRepeatFreq - int (default 100)//滑动轨迹上的重复频率
+
+);
+
+			</pre>			
+
+ <h2>仅显示垂直不带箭头滑杆</h2>
+			<div class="scroll-pane">
+				<p style="height:200px;">自从4月8日以来，再未探测到新的电子信号，这可能意味着为黑匣子记录仪定位探测器提供电能的电池，可能已经耗尽。这些电池仅能维持大约一个月，而这个期限已过。当官员们确定不会再听到任何声音时，将派出潜水机器人。澳大利亚总理阿博特12日说，针对马来西亚航空公司MH370航班的搜寻可能将持续相当长一段时间，原因是客机“黑匣子”发出的脉冲信号正在迅速减弱。</p>
+				<p style="height:200px;">联合协调中心总协调人休斯敦当天宣布，决定暂停澳大利亚海军“海洋之盾”号补给舰使用拖曳声波定位仪的搜寻作业，转而使用“蓝鳍金枪鱼-21”自主式水下航行器。“我们已经6天没有任何发现，所以我猜是时候进行水下作业了，”休斯敦说。王健表示，为方便马航失联乘客家属的心理救助，回龙观医院在3月份设立马航失联乘客家属心理门诊，为家属开辟绿色通道。王健建议，为家属尽快进入到情绪康复期，应不去看网上一些没有根据的不实信息，尽快平复心情、接纳自我，并在出现心理问题时主动同医生进行联系</p>
+				<p style="height:200px;">从搜索技术上来说，在法航事件中，使用了当时先进的多波束回声探测仪进行海底测绘，用拖曳声波定位仪定位黑匣子，同时使用了Remus无人潜水机和ROV水下机器人进行探测和打捞。同样在本次马航事件中，也使用到了上述的仪器，基本上是对法航事故搜寻技术的延续。　但是，在各国合作上，马航成为了联合搜救的典范。失事飞机的搜寻需要多国和各个政府部门和机构的协作。马航吸取了法航的经验，先后有发动机制造商、飞机制造商等多个专业公司参与救援。此外，马航事件中不仅有中美澳等国参与救援，英国、法国、韩国等“外围”国家也提供了技术和力量支持。中美等国的紧急调动的多颗卫星也起到了很大的作用。</p>
+			</div>
+            
+			<h2>显示垂直 带箭头</h2>
+            
+			<div class="scroll-pane-arrows">
+				<p style="height:500px;">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in ligula id sem tristique ultrices
+					eget id neque. Duis enim turpis, tempus at accumsan vitae, lobortis id sapien. Pellentesque nec orci
+					mi, in pharetra ligula. Nulla facilisi. Nulla facilisi. Mauris convallis venenatis massa, quis
+					consectetur felis ornare quis. Sed aliquet nunc ac ante molestie ultricies. Nam pulvinar ultricies
+					bibendum. Vivamus diam leo, faucibus et vehicula eu, molestie sit amet dui. Proin nec orci et elit
+					semper ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+					mus. Sed quis urna mi, ac dignissim mauris. Quisque mollis ornare mauris, sed laoreet diam malesuada
+					quis. Proin vel elementum ante. Donec hendrerit arcu ac odio tincidunt posuere. Vestibulum nec risus
+					eu lacus semper viverra.
+				</p>
+				<p>
+					Vestibulum dictum consectetur magna eu egestas. Praesent molestie dapibus erat, sit amet sodales
+					lectus congue ut. Nam adipiscing, tortor ac blandit egestas, lorem ligula posuere ipsum, nec
+					faucibus nisl enim eu purus. Quisque bibendum diam quis nunc eleifend at molestie libero tincidunt.
+					Quisque tincidunt sapien a sapien pellentesque consequat. Mauris adipiscing venenatis augue ut
+					tempor. Donec auctor mattis quam quis aliquam. Nullam ultrices erat in dolor pharetra bibendum.
+					Suspendisse eget odio ut libero imperdiet rhoncus. Curabitur aliquet, ipsum sit amet aliquet varius,
+					est urna ullamcorper magna, sed eleifend libero nunc non erat. Vivamus semper turpis ac turpis
+					volutpat non cursus velit aliquam. Fusce id tortor id sapien porta egestas. Nulla venenatis luctus
+					libero et suscipit. Sed sed purus risus. Donec auctor, leo nec eleifend vehicula, lacus felis
+					sollicitudin est, vitae lacinia lectus urna nec libero. Aliquam pellentesque, arcu condimentum
+					pharetra vestibulum, lectus felis malesuada felis, vel fringilla dolor dui tempus nisi. In hac
+					habitasse platea dictumst. Ut imperdiet mauris vitae eros varius eget accumsan lectus adipiscing.
+				</p>
+			</div>
+			<h2>只显示水平</h2>
+			<div class="scroll-pane horizontal-only">
+				<p style="width: 1000px;">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in ligula id sem tristique ultrices
+					eget id neque. Duis enim turpis, tempus at accumsan vitae, lobortis id sapien. Pellentesque nec orci
+					mi, in pharetra ligula. Nulla facilisi. Nulla facilisi. Mauris convallis venenatis massa, quis
+					consectetur felis ornare quis. Sed aliquet nunc ac ante molestie ultricies. Nam pulvinar ultricies
+					bibendum. Vivamus diam leo, faucibus et vehicula eu, molestie sit amet dui. Proin nec orci et elit
+					semper ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+					mus. Sed quis urna mi, ac dignissim mauris. Quisque mollis ornare mauris, sed laoreet diam malesuada
+					quis. Proin vel elementum ante. Donec hendrerit arcu ac odio tincidunt posuere. Vestibulum nec risus
+					eu lacus semper viverra.
+				</p>
+			</div>
+			<h2>显示水平带箭头</h2>
+			<div class="scroll-pane-arrows horizontal-only">
+				<p style="width: 1000px;">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in ligula id sem tristique ultrices
+					eget id neque. Duis enim turpis, tempus at accumsan vitae, lobortis id sapien. Pellentesque nec orci
+					mi, in pharetra ligula. Nulla facilisi. Nulla facilisi. Mauris convallis venenatis massa, quis
+					consectetur felis ornare quis. Sed aliquet nunc ac ante molestie ultricies. Nam pulvinar ultricies
+					bibendum. Vivamus diam leo, faucibus et vehicula eu, molestie sit amet dui. Proin nec orci et elit
+					semper ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+					mus. Sed quis urna mi, ac dignissim mauris. Quisque mollis ornare mauris, sed laoreet diam malesuada
+					quis. Proin vel elementum ante. Donec hendrerit arcu ac odio tincidunt posuere. Vestibulum nec risus
+					eu lacus semper viverra.
+				</p>
+			</div>
+			<h2>显示水平和垂直的</h2>
+			<div class="scroll-pane">
+				<p style="width: 1000px">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in ligula id sem tristique ultrices
+					eget id neque. Duis enim turpis, tempus at accumsan vitae, lobortis id sapien. Pellentesque nec orci
+					mi, in pharetra ligula. Nulla facilisi. Nulla facilisi. Mauris convallis venenatis massa, quis
+					consectetur felis ornare quis. Sed aliquet nunc ac ante molestie ultricies. Nam pulvinar ultricies
+					bibendum. Vivamus diam leo, faucibus et vehicula eu, molestie sit amet dui. Proin nec orci et elit
+					semper ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+					mus. Sed quis urna mi, ac dignissim mauris. Quisque mollis ornare mauris, sed laoreet diam malesuada
+					quis. Proin vel elementum ante. Donec hendrerit arcu ac odio tincidunt posuere. Vestibulum nec risus
+					eu lacus semper viverra.
+				</p>
+				<p style="height:600px;">
+					Vestibulum dictum consectetur magna eu egestas. Praesent molestie dapibus erat, sit amet sodales
+					lectus congue ut. Nam adipiscing, tortor ac blandit egestas, lorem ligula posuere ipsum, nec
+					faucibus nisl enim eu purus. Quisque bibendum diam quis nunc eleifend at molestie libero tincidunt.
+					Quisque tincidunt sapien a sapien pellentesque consequat. Mauris adipiscing venenatis augue ut
+					tempor. Donec auctor mattis quam quis aliquam. Nullam ultrices erat in dolor pharetra bibendum.
+					Suspendisse eget odio ut libero imperdiet rhoncus. Curabitur aliquet, ipsum sit amet aliquet varius,
+					est urna ullamcorper magna, sed eleifend libero nunc non erat. Vivamus semper turpis ac turpis
+					volutpat non cursus velit aliquam. Fusce id tortor id sapien porta egestas. Nulla venenatis luctus
+					libero et suscipit. Sed sed purus risus. Donec auctor, leo nec eleifend vehicula, lacus felis
+					sollicitudin est, vitae lacinia lectus urna nec libero. Aliquam pellentesque, arcu condimentum
+					pharetra vestibulum, lectus felis malesuada felis, vel fringilla dolor dui tempus nisi. In hac
+					habitasse platea dictumst. Ut imperdiet mauris vitae eros varius eget accumsan lectus adipiscing.
+				</p>
+			</div>
+			<h2>Both with arrows</h2>
+			<div class="scroll-pane-arrows">
+				<p style="width: 1000px; height:600px;">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in ligula id sem tristique ultrices
+					eget id neque. Duis enim turpis, tempus at accumsan vitae, lobortis id sapien. Pellentesque nec orci
+					mi, in pharetra ligula. Nulla facilisi. Nulla facilisi. Mauris convallis venenatis massa, quis
+					consectetur felis ornare quis. Sed aliquet nunc ac ante molestie ultricies. Nam pulvinar ultricies
+					bibendum. Vivamus diam leo, faucibus et vehicula eu, molestie sit amet dui. Proin nec orci et elit
+					semper ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+					mus. Sed quis urna mi, ac dignissim mauris. Quisque mollis ornare mauris, sed laoreet diam malesuada
+					quis. Proin vel elementum ante. Donec hendrerit arcu ac odio tincidunt posuere. Vestibulum nec risus
+					eu lacus semper viverra.
+				</p>
+				<p>
+					Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+					Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit
+					amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+				</p>
+			</div>
+
+		</div>
+	</body>
+</html>
